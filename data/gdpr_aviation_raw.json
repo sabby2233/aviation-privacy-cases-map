@@ -1,0 +1,68 @@
+[
+  {
+    "org": "Vueling Airlines",
+    "country": "Spain",
+    "price": "30000",
+    "date": "2019-01-10",
+    "authority": "Spanish Data Protection Authority (AEPD)",
+    "source": "https://www.aepd.es/resoluciones/PS-00300-2019_ORI.pdf",
+    "article": "Art. 5 GDPR, Art. 6 GDPR",
+    "type": "Non-compliance with lawful basis for data processing",
+    "summary": "Vueling Airlines made it impossible for users to access their website without accepting the cookies. Therefore, one couldn’t browse the website unless they accepted the cookies. The AEPD sanctioned the company with 30.000 euros"
+  },
+  {
+    "org": "British Airways",
+    "country": "United Kingdom",
+    "price": "22046000",
+    "date": "NA",
+    "authority": "Information Commissioner (ICO)",
+    "source": "NA",
+    "article": "Art. 5 (1) f) GDPR, Art. 32 GDPR",
+    "type": "Failure to implement sufficient measures to ensure information security",
+    "summary": "Back in July 2019, the ICO notified the British Airways that it would impose a fine of £183,39M for having infringed on several GDPR regulations, including a breach of Art. 32 GDPR. This fine was related to an incident notified in September 2018 by British Airways, involving the user traffic on the official website of the British Airways being diverted to a fraudulent website. This fraudulent website would harvest the customer details of all clients taken there. The personal data of more than 500,000 customers was harvested during the incident. During the ICO’s investigation, it was found that British Airways was mainly to blame for much of the compromised information, due to inadequate security measures, such as log-in, payment card, and travel booking details. The ICO eventually decided to lower the fine to £20 million (about EUR 22,046,000), taking into consideration the economic impact of the COVID-19 pandemic on the airline industry."
+  },
+  {
+    "org": "SC CNTAR TAROM SA",
+    "country": "Romania",
+    "price": "20000",
+    "date": "NA",
+    "authority": "Romanian National Supervisory Authority for Personal Data Processing (ANSPDCP)",
+    "source": "https://www.dataprotection.ro/?page=Sanctiune_CN_TAROM&lang=ro",
+    "article": "Art. 32 GDPR",
+    "type": "Failure to implement sufficient measures to ensure information security",
+    "summary": "A fine of €20,000 was issued to the Romanian national airline Tarom because it failed to implement the necessary technical measures to ensure the security of personal information. As a consequence of these inadequate measures, a Tarom employee was able to access the flight booking application without authorization and see the personal data of 22 passengers, after which the employee took a photo of the list and made it public online."
+  },
+  {
+    "org": "Louis Aviation Ltd",
+    "country": "Cyprus",
+    "price": "2000",
+    "date": "NA",
+    "authority": "Cypriot Data Protection Commissioner",
+    "source": "http://www.dataprotection.gov.cy/dataprotection/dataprotection.nsf/all/ACDFDC478581BEE1C22584EE002EE9C2/$file/2019-apofasi%20bradford%20system%20%CE%91%CE%9D%CE%A9%CE%9D%CE%A5%CE%9C%CE%9F%CE%A0.pdf?openelement",
+    "article": "Art. 6 GDPR, Art. 9 GDPR",
+    "type": "Non-compliance with lawful basis for data processing",
+    "summary": "The national data protection authority determined that the company used the Bradford factor for profiling and monitoring sick leave and that this constituted unlawful processing of personal data."
+  },
+  {
+    "org": "SC Cntar Tarom SA",
+    "country": "Romania",
+    "price": "5000",
+    "date": "NA",
+    "authority": "Romanian National Supervisory Authority for Personal Data Processing (ANSPDCP)",
+    "source": "NA",
+    "article": "Art. 32 GDPR",
+    "type": "Failure to implement sufficient measures to ensure information security",
+    "summary": "The company had disclosed data of five Tarom passengers due to insufficient organizational and technical measures for secure data processing. The Data Protection Authority stated that Tarom was obligated to instruct its employees to take corrective action in such situations, and perform risk assessment procedures beforehand."
+  },
+  {
+    "org": "Barcelona Airport Security Guard Association (‘AVSAB’)",
+    "country": "Spain",
+    "price": "3000",
+    "date": "2020-07-09",
+    "authority": "Spanish Data Protection Authority (AEPD)",
+    "source": "NA",
+    "article": "Art. 5 (1) f) GDPR",
+    "type": "Failure to comply with data processing principles",
+    "summary": "One of the AVASB security committee members sent WhatsApp messages containing personal information about employees, to private phone numbers. This constitutes a violation of the confidentiality principle which states that not only is the data controller obligated to respect it but everyone else involved in the data processing."
+  }
+]
