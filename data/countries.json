@@ -1,0 +1,1393 @@
+{
+  "version": "20260613",
+  "generatedAt": "2026-06-13T13:14:54.051431",
+  "totalCases": 47,
+  "totalCountries": 26,
+  "countries": {
+    "AT": {
+      "code": "AT",
+      "name": "奥地利",
+      "nameEn": "Austria",
+      "totalCases": 1,
+      "adminCases": 1,
+      "courtCases": 0,
+      "latestDate": "2023-06-20",
+      "authorities": [
+        "DSB"
+      ],
+      "cases": [
+        {
+          "id": "AT-A-001",
+          "caseName": "DSB - Austrian Airlines 乘客数据处理违规",
+          "caseNameEn": "DSB decision on Austrian Airlines passenger data processing",
+          "date": "2023-06-20",
+          "caseType": "admin",
+          "country": "AT",
+          "authority": "Austrian Data Protection Authority (DSB)",
+          "authorityShort": "DSB",
+          "sourceUrl": "https://www.dsb.gv.at/",
+          "summary": "奥地利数据保护局（DSB）对Austrian Airlines处理乘客个人数据的方式展开调查，涉及PNR数据和乘客画像问题。",
+          "tags": [
+            "GDPR",
+            "passenger-data",
+            "airline",
+            "PNR"
+          ],
+          "fineAmount": null,
+          "fineCurrency": null
+        }
+      ]
+    },
+    "AU": {
+      "code": "AU",
+      "name": "澳大利亚",
+      "nameEn": "Australia",
+      "totalCases": 1,
+      "adminCases": 1,
+      "courtCases": 0,
+      "latestDate": "2025-07-18",
+      "authorities": [
+        "OAIC"
+      ],
+      "cases": [
+        {
+          "id": "AU-A-001",
+          "caseName": "OAIC Investigation - Qantas Data Breach",
+          "caseNameEn": "OAIC Investigation into Qantas Data Breach",
+          "country": "AU",
+          "countryName": "澳大利亚",
+          "caseType": "admin",
+          "authority": "Office of the Australian Information Commissioner (OAIC)",
+          "authorityShort": "OAIC",
+          "date": "2025-07-18",
+          "sourceUrl": "https://www.oaic.gov.au/privacy/privacy-assessments-and-decisions/privacy-decisions",
+          "summary": "OAIC对Qantas数据泄露事件展开调查，数百万客户个人数据被泄露。律师事务所代表约600万受影响澳大利亚人提起代表投诉，寻求赔偿。OAIC正在监控Qantas的合规情况。",
+          "tags": [
+            "Privacy-Act",
+            "data-breach",
+            "airline",
+            "passenger-data"
+          ],
+          "sourceName": "OAIC",
+          "lastVerified": "2026-06-12"
+        }
+      ]
+    },
+    "BE": {
+      "code": "BE",
+      "name": "比利时",
+      "nameEn": "Belgium",
+      "totalCases": 2,
+      "adminCases": 1,
+      "courtCases": 1,
+      "latestDate": "2022-06-21",
+      "authorities": [
+        "APD/GBA",
+        "CJEU"
+      ],
+      "cases": [
+        {
+          "id": "BE-C-001",
+          "caseName": "CJEU Case C-817/19 — Ligue des droits humains ASBL v Conseil des ministres",
+          "caseNameEn": "CJEU Grand Chamber Judgment on PNR Directive (Case C-817/19)",
+          "country": "BE",
+          "countryName": "比利时",
+          "caseType": "court",
+          "authority": "Court of Justice of the European Union (Grand Chamber)",
+          "authorityShort": "CJEU",
+          "date": "2022-06-21",
+          "sourceUrl": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:62019CJ0817",
+          "summary": "欧盟法院大法庭对PNR指令(Directive 2016/681)作出里程碑判决，裁定航空旅客姓名记录(PNR)数据的收集和使用在严格解释下符合《欧盟基本权利宪章》第7、8、21条，但要求成员国对PNR数据的处理作严格限制性解释，禁止将PNR系统扩展到航空以外的其他交通方式，并限制数据保留期限。此案由比利时宪法法院提请 preliminary ruling。",
+          "tags": [
+            "PNR",
+            "passenger-data",
+            "EU-Charter",
+            "data-protection",
+            "air-passenger",
+            "proportionality"
+          ],
+          "sourceName": "CURIA",
+          "lastVerified": "2026-06-12"
+        },
+        {
+          "id": "BE-A-001",
+          "caseName": "APD/GBA Sanction - Brussels Airport Company NV",
+          "caseNameEn": "Belgian DPA Fine against Brussels Airport for Thermal Camera Temperature Checks",
+          "country": "BE",
+          "countryName": "比利时",
+          "caseType": "admin",
+          "authority": "Autorité de protection des données / Gegevensbeschermingsautoriteit (APD/GBA)",
+          "authorityShort": "APD/GBA",
+          "date": "2022-04-04",
+          "sourceUrl": "https://www.dataprotectionauthority.be/citizen/homepage",
+          "summary": "比利时数据保护局因布鲁塞尔机场(Brussels Airport)在COVID-19期间使用热像仪对乘客进行体温检测，违反GDPR第5(1)(a)(b)条（合法性和数据最小化原则）及第9条（健康数据为特殊类别数据），对机场公司罚款€200,000。同时对其合作医疗机构Ambuce Rescue Team罚款€20,000。该案件编号48/2022，为DPA对机场生物识别/健康数据处理的标志性执法案例。",
+          "tags": [
+            "GDPR",
+            "health-data",
+            "biometric",
+            "airport",
+            "COVID-19",
+            "thermal-camera"
+          ],
+          "sourceName": "APD/GBA",
+          "lastVerified": "2026-06-12"
+        }
+      ]
+    },
+    "CA": {
+      "code": "CA",
+      "name": "加拿大",
+      "nameEn": "Canada",
+      "totalCases": 1,
+      "adminCases": 1,
+      "courtCases": 0,
+      "latestDate": "2025-08-12",
+      "authorities": [
+        "OPC"
+      ],
+      "cases": [
+        {
+          "id": "CA-A-001",
+          "caseName": "OPC 对 WestJet 网络安全事件展开调查",
+          "caseNameEn": "OPC investigation into WestJet cybersecurity breach",
+          "date": "2025-08-12",
+          "caseType": "admin",
+          "country": "CA",
+          "authority": "Office of the Privacy Commissioner of Canada (OPC)",
+          "authorityShort": "OPC",
+          "sourceUrl": "https://www.priv.gc.ca/en/opc-news/news-and-announcements/2025/nr-c-20250812/",
+          "summary": "加拿大隐私专员办公室（OPC）宣布对WestJet展开调查，原因是一起网络安全事件导致恶意攻击者非法获取航空公司系统访问权限。调查将核查WestJet的安全保障措施是否充足，以及向受影响用户发送的通知是否符合PIPEDA要求。事件于2025年6月13日首次公开披露。",
+          "tags": [
+            "PIPEDA",
+            "cybersecurity-breach",
+            "airline",
+            "investigation"
+          ],
+          "fineAmount": null,
+          "fineCurrency": null
+        }
+      ]
+    },
+    "CH": {
+      "code": "CH",
+      "name": "瑞士",
+      "nameEn": "Switzerland",
+      "totalCases": 1,
+      "adminCases": 1,
+      "courtCases": 0,
+      "latestDate": "2024-09-20",
+      "authorities": [
+        "FDPIC"
+      ],
+      "cases": [
+        {
+          "id": "CH-A-001",
+          "caseName": "FDPIC - Swiss International Air Lines 数据保护调查",
+          "caseNameEn": "FDPIC investigation into Swiss International Air Lines data practices",
+          "date": "2024-09-20",
+          "caseType": "admin",
+          "country": "CH",
+          "authority": "Federal Data Protection and Information Commissioner (FDPIC)",
+          "authorityShort": "FDPIC",
+          "sourceUrl": "https://www.edoeb.admin.ch/edoeb/en/home/documentation/decisions.html",
+          "summary": "瑞士联邦数据保护和信息专员（FDPIC）对Swiss International Air Lines的数据处理行为进行调查，涉及乘客个人数据的跨境传输和存储实践。",
+          "tags": [
+            "nFADP",
+            "data-processing",
+            "airline",
+            "cross-border"
+          ],
+          "fineAmount": null,
+          "fineCurrency": null
+        }
+      ]
+    },
+    "CN": {
+      "code": "CN",
+      "name": "中国",
+      "nameEn": "China",
+      "totalCases": 1,
+      "adminCases": 0,
+      "courtCases": 1,
+      "latestDate": "2016-01-20",
+      "authorities": [
+        "海淀法院"
+      ],
+      "cases": [
+        {
+          "id": "CN-C-001",
+          "caseName": "Pang Lipeng v. China Eastern Airlines Co., Ltd.",
+          "caseNameEn": "Pang Lipeng v. China Eastern Airlines (Personal Data Dispute)",
+          "country": "CN",
+          "countryName": "中国",
+          "caseType": "court",
+          "authority": "北京市海淀区人民法院",
+          "authorityShort": "海淀法院",
+          "date": "2016-01-20",
+          "sourceUrl": "https://english.court.gov.cn/2019-12/04/c_766704.htm",
+          "summary": "旅客诉中国东方航空公司个人信息纠纷案。法院一审驳回了原告全部诉讼请求，但该案为中国航空旅客个人信息保护的早期司法实践案例。",
+          "tags": [
+            "personal-data",
+            "airline",
+            "passenger-rights",
+            "civil-litigation"
+          ],
+          "sourceName": "China Courts",
+          "lastVerified": "2026-06-12"
+        }
+      ]
+    },
+    "CY": {
+      "code": "CY",
+      "name": "塞浦路斯",
+      "nameEn": "Cyprus",
+      "totalCases": 1,
+      "adminCases": 1,
+      "courtCases": 0,
+      "latestDate": "",
+      "authorities": [
+        "Cypriot Data Protect"
+      ],
+      "cases": [
+        {
+          "id": "CY-A-001",
+          "caseName": "Cypriot Data Protection Commissioner - Louis Aviation Ltd",
+          "caseNameEn": "Cypriot Data Protection Commissioner - Louis Aviation Ltd",
+          "country": "CY",
+          "caseType": "admin",
+          "authority": "Cypriot Data Protection Commissioner",
+          "authorityShort": "Cypriot Data Protect",
+          "date": null,
+          "sourceUrl": "http://www.dataprotection.gov.cy/dataprotection/dataprotection.nsf/all/ACDFDC478581BEE1C22584EE002EE9C2/$file/2019-apofasi%20bradford%20system%20%CE%91%CE%9D%CE%A9%CE%9D%CE%A5%CE%9C%CE%9F%CE%A0.pdf?openelement",
+          "summary": "The national data protection authority determined that the company used the Bradford factor for profiling and monitoring sick leave and that this constituted unlawful processing of personal data.",
+          "tags": [
+            "GDPR",
+            "aviation"
+          ],
+          "fineAmount": 2000.0,
+          "fineCurrency": null,
+          "sector": "Aviation",
+          "lastVerified": "2026-06-13",
+          "countryName": "塞浦路斯"
+        }
+      ]
+    },
+    "DK": {
+      "code": "DK",
+      "name": "丹麦",
+      "nameEn": "Denmark",
+      "totalCases": 1,
+      "adminCases": 1,
+      "courtCases": 0,
+      "latestDate": "2023-08-22",
+      "authorities": [
+        "Datatilsynet"
+      ],
+      "cases": [
+        {
+          "id": "DK-A-001",
+          "caseName": "Datatilsynet - Copenhagen Airports 生物识别数据",
+          "caseNameEn": "Danish DPA decision on Copenhagen Airports biometric data",
+          "date": "2023-08-22",
+          "caseType": "admin",
+          "country": "DK",
+          "authority": "Danish Data Protection Authority (Datatilsynet)",
+          "authorityShort": "Datatilsynet",
+          "sourceUrl": "https://www.datatilsynet.dk/",
+          "summary": "丹麦数据保护局对哥本哈根机场使用生物识别技术（面部识别）进行员工身份验证和数据处理的合规性进行调查。",
+          "tags": [
+            "GDPR",
+            "biometric-data",
+            "airport",
+            "facial-recognition"
+          ],
+          "fineAmount": null,
+          "fineCurrency": null
+        }
+      ]
+    },
+    "ES": {
+      "code": "ES",
+      "name": "西班牙",
+      "nameEn": "Spain",
+      "totalCases": 7,
+      "adminCases": 7,
+      "courtCases": 0,
+      "latestDate": "2024-01-15",
+      "authorities": [
+        "AEPD"
+      ],
+      "cases": [
+        {
+          "id": "ES-A-007",
+          "caseName": "AEPD Sanción a compañía aérea por brecha de datos",
+          "caseNameEn": "AEPD Fine against Airline for Data Breach (€650,000)",
+          "country": "ES",
+          "countryName": "西班牙",
+          "caseType": "admin",
+          "authority": "Agencia Española de Protección de Datos (AEPD)",
+          "authorityShort": "AEPD",
+          "date": "2024-01-15",
+          "sourceUrl": "https://baylos.com/blog/una-brecha-provocada-por-vulnerabilidades-conocidas-acaba-en-una-sancion-de-650-000-euros-para-una-reconocida-aerolinea",
+          "summary": "一家知名航空公司因已知漏洞未修补导致数据泄露，违反GDPR第5(1)(f)条完整性和保密性原则，被AEPD罚款€650,000。",
+          "tags": [
+            "GDPR",
+            "data-breach",
+            "security-failure",
+            "airline"
+          ],
+          "sourceName": "AEPD",
+          "lastVerified": "2026-06-12"
+        },
+        {
+          "id": "ES-A-006",
+          "caseName": "AEPD Sanción a Aena S.M.E., S.A. - Reconocimiento Facial",
+          "caseNameEn": "AEPD Fine against Aena for Facial Recognition Boarding System",
+          "country": "ES",
+          "countryName": "西班牙",
+          "caseType": "admin",
+          "authority": "Agencia Española de Protección de Datos (AEPD)",
+          "authorityShort": "AEPD",
+          "date": "2023-11-25",
+          "sourceUrl": "https://www.aepd.es/resoluciones/PS-00091-2023",
+          "summary": "AEPD对西班牙国家机场运营商AENA开出€200,000罚款（受益于主动合规减至€160,000），原因是AENA在部分机场试点人脸识别自助值机和登机系统时，未完成GDPR第35条要求的数据保护影响评估(DPIA)。",
+          "tags": [
+            "GDPR",
+            "biometric-data",
+            "DPIA",
+            "facial-recognition",
+            "airport"
+          ],
+          "fineAmount": 200000,
+          "fineCurrency": "EUR",
+          "sector": "Aviation",
+          "sourceName": "AEPD",
+          "lastVerified": "2026-06-13"
+        },
+        {
+          "id": "ES-A-005",
+          "caseName": "AEPD Sanción a Vueling Airlines, S.A.",
+          "caseNameEn": "AEPD Fine against Vueling Airlines (Cookie Consent)",
+          "country": "ES",
+          "countryName": "西班牙",
+          "caseType": "admin",
+          "authority": "Agencia Española de Protección de Datos (AEPD)",
+          "authorityShort": "AEPD",
+          "date": "2023-08-24",
+          "sourceUrl": "https://www.aepd.es/resoluciones/PS-00086-2023",
+          "summary": "Vueling航空因其官方网站未按GDPR第7条和第13条要求正确获取用户cookie同意，也未提供清晰的隐私信息，被AEPD罚款€60,000。涉及旅客在购票过程中无法有效拒绝非必要cookie。",
+          "tags": [
+            "GDPR",
+            "cookie-consent",
+            "airline",
+            "transparency"
+          ],
+          "fineAmount": 60000,
+          "fineCurrency": "EUR",
+          "sector": "Aviation",
+          "sourceName": "AEPD",
+          "lastVerified": "2026-06-13"
+        },
+        {
+          "id": "ES-A-004",
+          "caseName": "AEPD Sanción a Ryanair DAC",
+          "caseNameEn": "AEPD Fine against Ryanair (Identity Document Copy)",
+          "country": "ES",
+          "countryName": "西班牙",
+          "caseType": "admin",
+          "authority": "Agencia Española de Protección de Datos (AEPD)",
+          "authorityShort": "AEPD",
+          "date": "2023-01-31",
+          "sourceUrl": "https://www.aepd.es/resoluciones/PS-00319-2022",
+          "summary": "Ryanair因在值机时要求旅客提交身份证正反面扫描件并留存，收集了超出必要范围的个人数据（包括身份证背面的身份证号码以外信息），违反GDPR数据最小化原则，被AEPD罚款€30,000。",
+          "tags": [
+            "GDPR",
+            "data-minimization",
+            "airline",
+            "identity-document"
+          ],
+          "fineAmount": 30000,
+          "fineCurrency": "EUR",
+          "sector": "Aviation",
+          "sourceName": "AEPD",
+          "lastVerified": "2026-06-13"
+        },
+        {
+          "id": "ES-A-003",
+          "caseName": "AEPD Sanción a Iberia Líneas Aéreas de España, S.A. Operadora",
+          "caseNameEn": "AEPD Fine against Iberia Airlines (Data Subject Rights)",
+          "country": "ES",
+          "countryName": "西班牙",
+          "caseType": "admin",
+          "authority": "Agencia Española de Protección de Datos (AEPD)",
+          "authorityShort": "AEPD",
+          "date": "2022-11-10",
+          "sourceUrl": "https://www.aepd.es/resoluciones/PS-00168-2022",
+          "summary": "Iberia航空因未在法定期限内响应多名旅客的数据主体访问请求(SAR)，违反GDPR第12条，被AEPD罚款€30,000。案件涉及旅客无法获取其飞行历史和消费记录。",
+          "tags": [
+            "GDPR",
+            "data-subject-access",
+            "airline",
+            "passenger-rights"
+          ],
+          "fineAmount": 30000,
+          "fineCurrency": "EUR",
+          "sector": "Aviation",
+          "sourceName": "AEPD",
+          "lastVerified": "2026-06-13"
+        },
+        {
+          "id": "ES-A-002",
+          "caseName": "Spanish Data Protection Authority - Iberia Lineas Aereas",
+          "caseNameEn": "Spanish Data Protection Authority - Iberia Lineas Aereas",
+          "country": "ES",
+          "caseType": "admin",
+          "authority": "Spanish Data Protection Authority (AEPD)",
+          "authorityShort": "AEPD",
+          "date": "2020-03-02",
+          "sourceUrl": "https://www.aepd.es/es/documento/ps-00402-2019.pdf",
+          "summary": "The company continued to send emails to individuals even after the affected individuals have requested to be removed from the company&#8217;s database or be added to a &#8220;no-contact&#8221; list.",
+          "tags": [
+            "GDPR",
+            "aviation"
+          ],
+          "fineAmount": 20000.0,
+          "fineCurrency": null,
+          "sector": "Aviation",
+          "lastVerified": "2026-06-13",
+          "countryName": "西班牙"
+        },
+        {
+          "id": "ES-A-001",
+          "caseName": "Spanish Data Protection Authority - Vueling Airlines",
+          "caseNameEn": "Spanish Data Protection Authority - Vueling Airlines",
+          "country": "ES",
+          "caseType": "admin",
+          "authority": "Spanish Data Protection Authority (AEPD)",
+          "authorityShort": "AEPD",
+          "date": "2019-01-10",
+          "sourceUrl": "https://www.aepd.es/resoluciones/PS-00300-2019_ORI.pdf",
+          "summary": "Vueling Airlines made it impossible for users to access their website without accepting the cookies. Therefore, one couldn’t browse the website unless they accepted the cookies. The AEPD sanctioned the company with 30.000 euros",
+          "tags": [
+            "GDPR",
+            "aviation"
+          ],
+          "fineAmount": 30000.0,
+          "fineCurrency": null,
+          "sector": "Aviation",
+          "lastVerified": "2026-06-13",
+          "countryName": "西班牙"
+        }
+      ]
+    },
+    "FR": {
+      "code": "FR",
+      "name": "法国",
+      "nameEn": "France",
+      "totalCases": 2,
+      "adminCases": 2,
+      "courtCases": 0,
+      "latestDate": "2025-08-06",
+      "authorities": [
+        "CNIL"
+      ],
+      "cases": [
+        {
+          "id": "FR-A-002",
+          "caseName": "CNIL Délibération - Air France Data Breach Notification",
+          "caseNameEn": "CNIL Deliberation concerning Air France Data Breach",
+          "country": "FR",
+          "countryName": "法国",
+          "caseType": "admin",
+          "authority": "Commission Nationale de l'Informatique et des Libertés (CNIL)",
+          "authorityShort": "CNIL",
+          "date": "2025-08-06",
+          "sourceUrl": "https://www.cnil.fr/fr/les-sanctions-prononcees-par-la-cnil",
+          "summary": "Air France于2025年8月6日报告遭遇数据泄露，部分客户个人信息被非法访问。CNIL对此进行了调查。该案例涉及航空客户数据的保护义务。",
+          "tags": [
+            "GDPR",
+            "data-breach",
+            "airline",
+            "passenger-data"
+          ],
+          "sourceName": "CNIL",
+          "lastVerified": "2026-06-12"
+        },
+        {
+          "id": "FR-A-001",
+          "caseName": "CNIL Délibération SAN-2022-009 - Derichebourg Multiservices",
+          "caseNameEn": "CNIL Sanction against Derichebourg (Airport Ground Services)",
+          "country": "FR",
+          "countryName": "法国",
+          "caseType": "admin",
+          "authority": "Commission Nationale de l'Informatique et des Libertés (CNIL)",
+          "authorityShort": "CNIL",
+          "date": "2022-03-10",
+          "sourceUrl": "https://www.legifrance.gouv.fr/cnil/id/CNILTEXT000045372972",
+          "summary": "CNIL对机场地面服务公司Derichebourg Multiservices处以€400,000罚款，该公司未能充分保护其处理的员工和机场人员个人数据，违反GDPR第32条（安全义务）。数据泄露涉及约55,000名员工数据。",
+          "tags": [
+            "GDPR",
+            "data-breach",
+            "employee-data",
+            "ground-services",
+            "airport"
+          ],
+          "fineAmount": 400000,
+          "fineCurrency": "EUR",
+          "sector": "Aviation",
+          "sourceName": "CNIL",
+          "lastVerified": "2026-06-13"
+        }
+      ]
+    },
+    "GB": {
+      "code": "GB",
+      "name": "英国",
+      "nameEn": "UK",
+      "totalCases": 5,
+      "adminCases": 5,
+      "courtCases": 0,
+      "latestDate": "NA",
+      "authorities": [
+        "ICO"
+      ],
+      "cases": [
+        {
+          "id": "GB-A-004",
+          "caseName": "Information Commissioner - British Airways",
+          "caseNameEn": "Information Commissioner - British Airways",
+          "country": "GB",
+          "caseType": "admin",
+          "authority": "Information Commissioner (ICO)",
+          "authorityShort": "ICO",
+          "date": "NA",
+          "sourceUrl": "NA",
+          "summary": "Back in July 2019, the ICO notified the British Airways that it would impose a fine of £183,39M for having infringed on several GDPR regulations, including a breach of Art. 32 GDPR. This fine was related to an incident notified in September 2018 by British Airways, involving the user traffic on the official website of the British Airways being diverted to a fraudulent website. This fraudulent website would harvest the customer details of all clients taken there. The personal data of more than...",
+          "tags": [
+            "GDPR",
+            "data-breach",
+            "aviation"
+          ],
+          "fineAmount": 22046000.0,
+          "fineCurrency": null,
+          "sector": "Aviation",
+          "lastVerified": "2026-06-13",
+          "countryName": "英国"
+        },
+        {
+          "id": "GB-A-003",
+          "caseName": "ICO Fine against British Airways plc",
+          "caseNameEn": "ICO Fine against British Airways plc",
+          "country": "GB",
+          "countryName": "英国",
+          "caseType": "admin",
+          "authority": "Information Commissioner's Office (ICO)",
+          "authorityShort": "ICO",
+          "date": "2020-10-16",
+          "sourceUrl": "https://ico.org.uk/action-weve-taken/enforcement/british-airways-pecr/",
+          "summary": "British Airways因2018年网络攻击导致约429,612名客户的个人和财务数据泄露，被ICO依据GDPR罚款£20,000,000。原始拟议罚款为£183,390,000，后经考虑合作态度及COVID-19影响大幅降低。",
+          "tags": [
+            "GDPR",
+            "data-breach",
+            "passenger-data",
+            "cyber-attack"
+          ],
+          "sourceName": "ICO",
+          "lastVerified": "2026-06-12"
+        },
+        {
+          "id": "GB-A-001",
+          "caseName": "ICO - EasyJet 数据泄露罚款",
+          "caseNameEn": "ICO fine against EasyJet for data breach",
+          "date": "2020-05-26",
+          "caseType": "admin",
+          "country": "GB",
+          "authority": "Information Commissioner's Office (ICO)",
+          "authorityShort": "ICO",
+          "sourceUrl": "https://ico.org.uk/action-weve-taken/enforcement/easyjet-public-limited-company/",
+          "summary": "英国ICO对EasyJet处以罚款，原因是该航空公司发生重大网络安全事件，约900万客户的个人数据被泄露，包括约2,206个信用卡详情。ICO认定EasyJet未采取适当的技术和组织措施来保护客户数据，违反了GDPR第5(1)(f)条和第32条。",
+          "tags": [
+            "GDPR",
+            "data-breach",
+            "airline",
+            "cybersecurity"
+          ],
+          "fineAmount": null,
+          "fineCurrency": null
+        },
+        {
+          "id": "GB-A-002",
+          "caseName": "ICO Reprimand - easyJet plc (2020 Data Breach)",
+          "caseNameEn": "ICO Reprimand against easyJet plc (2020 Cyber Attack)",
+          "country": "GB",
+          "countryName": "英国",
+          "caseType": "admin",
+          "authority": "Information Commissioner's Office (ICO)",
+          "authorityShort": "ICO",
+          "date": "2020-05-19",
+          "sourceUrl": "https://ico.org.uk/about-the-ico/media-centre/news-and-blogs/2020/05/statement-easyjet/",
+          "summary": "easyJet遭网络攻击，约900万名客户的电子邮件和旅行详情泄露，其中约2,208名客户的信用卡信息也被获取。ICO对此展开调查，easyJet主动向ICO通报，ICO最终未开出罚款但发出正式告诫。",
+          "tags": [
+            "GDPR",
+            "data-breach",
+            "passenger-data",
+            "credit-card-data"
+          ],
+          "fineAmount": null,
+          "fineCurrency": null,
+          "sector": "Aviation",
+          "sourceName": "ICO",
+          "lastVerified": "2026-06-13"
+        },
+        {
+          "id": "GB-A-001",
+          "caseName": "ICO Fine against Cathay Pacific Airways Limited",
+          "caseNameEn": "ICO Fine against Cathay Pacific Airways (2018 Data Breach)",
+          "country": "GB",
+          "countryName": "英国",
+          "caseType": "admin",
+          "authority": "Information Commissioner's Office (ICO)",
+          "authorityShort": "ICO",
+          "date": "2020-03-04",
+          "sourceUrl": "https://ico.org.uk/action-weve-taken/enforcement/cathay-pacific-airways-limited/",
+          "summary": "国泰航空2018年数据泄露，超过900万名全球旅客的个人信息（包括护照号码、身份证号码和历史旅行信息）被黑客获取。ICO认为国泰航空未采取足够措施保护客户数据，依据DPA 2018罚款£500,000（发生在GDPR生效之前）。",
+          "tags": [
+            "DPA2018",
+            "data-breach",
+            "passenger-data",
+            "passport-data"
+          ],
+          "fineAmount": 500000,
+          "fineCurrency": "GBP",
+          "sector": "Aviation",
+          "sourceName": "ICO",
+          "lastVerified": "2026-06-13"
+        }
+      ]
+    },
+    "HK": {
+      "code": "HK",
+      "name": "中国香港",
+      "nameEn": "Hong Kong, China",
+      "totalCases": 1,
+      "adminCases": 1,
+      "courtCases": 0,
+      "latestDate": "2026-03-27",
+      "authorities": [
+        "PCPD"
+      ],
+      "cases": [
+        {
+          "id": "HK-A-001",
+          "caseName": "PCPD Enforcement Action - Ground Service Agent Data Breach",
+          "caseNameEn": "PCPD Enforcement Action against Aviation Ground Service Agent",
+          "country": "HK",
+          "countryName": "中国香港",
+          "caseType": "admin",
+          "authority": "Personal Data Privacy Commissioner for Hong Kong (PCPD)",
+          "authorityShort": "PCPD",
+          "date": "2026-03-27",
+          "sourceUrl": "https://www.pcpd.org.hk/",
+          "summary": "某交通运输企业的第三方地面服务代理在处理行李索赔补偿申请时，误将包含4名用户真实个人信息的样例表格发送给投诉人，泄露了姓名、航班信息、银行账户等数据。PCPD发现企业虽制定了内部手册但未确保代理落实。",
+          "tags": [
+            "data-breach",
+            "ground-service",
+            "passenger-data",
+            "third-party"
+          ],
+          "sourceName": "PCPD",
+          "lastVerified": "2026-06-12"
+        }
+      ]
+    },
+    "HU": {
+      "code": "HU",
+      "name": "匈牙利",
+      "nameEn": "Hungary",
+      "totalCases": 1,
+      "adminCases": 1,
+      "courtCases": 0,
+      "latestDate": "2025-01-15",
+      "authorities": [
+        "NAIH"
+      ],
+      "cases": [
+        {
+          "id": "HU-A-001",
+          "caseName": "NAIH - Lufthansa 数据泄露调查",
+          "caseNameEn": "NAIH investigation into Lufthansa data breach",
+          "date": "2025-01-15",
+          "caseType": "admin",
+          "country": "HU",
+          "authority": "National Authority for Data Protection and Freedom of Information (NAIH)",
+          "authorityShort": "NAIH",
+          "sourceUrl": "https://dmp.hu/en/data-protection/analysis-of-the-naih-2024-cases-with-fines/",
+          "summary": "匈牙利数据保护局（NAIH）对Lufthansa数据泄露事件进行调查。该事件涉及匈牙利乘客的个人数据在Lufthansa系统中遭到未授权访问。",
+          "tags": [
+            "GDPR",
+            "data-breach",
+            "airline",
+            "passenger-data"
+          ],
+          "fineAmount": null,
+          "fineCurrency": null
+        }
+      ]
+    },
+    "IE": {
+      "code": "IE",
+      "name": "爱尔兰",
+      "nameEn": "Ireland",
+      "totalCases": 1,
+      "adminCases": 1,
+      "courtCases": 0,
+      "latestDate": "2024-07-10",
+      "authorities": [
+        "DPC"
+      ],
+      "cases": [
+        {
+          "id": "IE-A-001",
+          "caseName": "DPC - Ryanair Cookie合规调查",
+          "caseNameEn": "DPC investigation into Ryanair cookie compliance",
+          "date": "2024-07-10",
+          "caseType": "admin",
+          "country": "IE",
+          "authority": "Data Protection Commission (DPC) Ireland",
+          "authorityShort": "DPC",
+          "sourceUrl": "https://www.dataprotection.ie/",
+          "summary": "爱尔兰数据保护委员会（DPC）对Ryanair的网站Cookie和跟踪技术合规性进行调查，涉及未经用户同意设置跟踪Cookie的行为。",
+          "tags": [
+            "GDPR",
+            "cookies",
+            "airline",
+            "ePrivacy"
+          ],
+          "fineAmount": null,
+          "fineCurrency": null
+        }
+      ]
+    },
+    "IN": {
+      "code": "IN",
+      "name": "印度",
+      "nameEn": "India",
+      "totalCases": 1,
+      "adminCases": 1,
+      "courtCases": 0,
+      "latestDate": "2024-05-15",
+      "authorities": [
+        "DPBI"
+      ],
+      "cases": [
+        {
+          "id": "IN-A-001",
+          "caseName": "DPBI - Air India 数据泄露（SITA系统攻击）",
+          "caseNameEn": "DPBI notice to Air India for SITA data breach",
+          "date": "2024-05-15",
+          "caseType": "admin",
+          "country": "IN",
+          "authority": "Digital Personal Data Protection Board of India (DPDPA)",
+          "authorityShort": "DPBI",
+          "sourceUrl": "https://www.meity.gov.in/",
+          "summary": "印度数据保护机构对Air India数据泄露事件发出通知。该事件涉及SITA系统遭受网络攻击，导致Star Alliance成员航空公司（包括Air India）的乘客数据泄露，受影响人数超过数百万。",
+          "tags": [
+            "DPDPA",
+            "data-breach",
+            "airline",
+            "passenger-data",
+            "SITA"
+          ],
+          "fineAmount": null,
+          "fineCurrency": null
+        }
+      ]
+    },
+    "IT": {
+      "code": "IT",
+      "name": "意大利",
+      "nameEn": "Italy",
+      "totalCases": 3,
+      "adminCases": 3,
+      "courtCases": 0,
+      "latestDate": "2026-03-04",
+      "authorities": [
+        "Garante"
+      ],
+      "cases": [
+        {
+          "id": "IT-A-001",
+          "caseName": "Garante Privacy - Sanzione a ITA Airways e Alitalia",
+          "caseNameEn": "Italian Garante Fine against ITA Airways and Alitalia",
+          "country": "IT",
+          "countryName": "意大利",
+          "caseType": "admin",
+          "authority": "Garante per la protezione dei dati personali",
+          "authorityShort": "Garante",
+          "date": "2026-03-04",
+          "sourceUrl": "https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/10154804",
+          "summary": "ITA Airways和Alitalia因在运营过渡期间未经员工同意转移个人数据，违反GDPR第6、12、13条，被合计罚款€1,250,000。数据涉及员工个人信息在两家航司之间的非合规传输。",
+          "tags": [
+            "GDPR",
+            "data-transfer",
+            "employee-data",
+            "airline"
+          ],
+          "sourceName": "Garante",
+          "lastVerified": "2026-06-12"
+        },
+        {
+          "id": "IT-A-001",
+          "caseName": "Garante - ITA Airways 员工数据非法转移",
+          "caseNameEn": "Garante Privacy - ITA Airways unlawful employee data transfer",
+          "date": "2026-03-04",
+          "caseType": "admin",
+          "country": "IT",
+          "authority": "Garante per la Protezione dei Dati Personli (Italian DPA)",
+          "authorityShort": "Garante",
+          "sourceUrl": "https://www.garanteprivacy.it/provvedimento-152-2026",
+          "summary": "意大利Garante对ITA Airways罚款100万欧元，对Alitalia罚款25万欧元。两家公司在交接期间通过SharePoint文件夹非法、大规模转移2000余名 Aviation 部门员工的个人档案、薪资信息、家庭负担信息等数据，缺乏法律依据且未告知数据主体。决定编号：Provvedimento n. 152 del 4 marzo 2026。",
+          "tags": [
+            "GDPR",
+            "employee-data",
+            "data-transfer",
+            "airline"
+          ],
+          "fineAmount": 1000000,
+          "fineCurrency": "EUR"
+        },
+        {
+          "id": "IT-A-002",
+          "caseName": "Garante - Alitalia 员工数据非法转移",
+          "caseNameEn": "Garante Privacy - Alitalia unlawful employee data transfer",
+          "date": "2026-03-04",
+          "caseType": "admin",
+          "country": "IT",
+          "authority": "Garante per la Protezione dei Dati Personali (Italian DPA)",
+          "authorityShort": "Garante",
+          "sourceUrl": "https://www.ilfattoquotidiano.it/2026/03/06/il-garante-si-sveglia-dopo-un-esposto-alla-procura-di-roma-e-multa-ita-e-alitalia-per-125-milioni-di-euro/8315946/",
+          "summary": "Alitalia（特别管理程序）通过共享SharePoint文件夹向ITA Airways非法提供所有Aviation员工数据访问权限，违反GDPR第6条和第12-14条。罚款25万欧元。",
+          "tags": [
+            "GDPR",
+            "employee-data",
+            "data-transfer",
+            "airline"
+          ],
+          "fineAmount": 250000,
+          "fineCurrency": "EUR"
+        }
+      ]
+    },
+    "KR": {
+      "code": "KR",
+      "name": "韩国",
+      "nameEn": "South Korea",
+      "totalCases": 1,
+      "adminCases": 1,
+      "courtCases": 0,
+      "latestDate": "2023-12-20",
+      "authorities": [
+        "PIPC"
+      ],
+      "cases": [
+        {
+          "id": "KR-A-001",
+          "caseName": "PIPC - Korean Air 个人信息泄露处罚",
+          "caseNameEn": "PIPC sanction against Korean Air for personal data breach",
+          "date": "2023-12-20",
+          "caseType": "admin",
+          "country": "KR",
+          "authority": "Personal Information Protection Commission (PIPC)",
+          "authorityShort": "PIPC",
+          "sourceUrl": "https://www.pipc.go.kr/eng/index.do",
+          "summary": "韩国个人信息保护委员会（PIPC）对大韩航空（Korean Air）因客户个人信息泄露事件进行处罚。泄露事件涉及乘客姓名、联系方式、航班信息等敏感数据。",
+          "tags": [
+            "PIPA",
+            "data-breach",
+            "airline",
+            "passenger-data"
+          ],
+          "fineAmount": null,
+          "fineCurrency": null
+        }
+      ]
+    },
+    "NL": {
+      "code": "NL",
+      "name": "荷兰",
+      "nameEn": "Netherlands",
+      "totalCases": 1,
+      "adminCases": 1,
+      "courtCases": 0,
+      "latestDate": "2024-06-15",
+      "authorities": [
+        "AP"
+      ],
+      "cases": [
+        {
+          "id": "NL-A-001",
+          "caseName": "AP - Schiphol机场生物识别监控调查",
+          "caseNameEn": "AP investigation into Schiphol Airport biometric surveillance",
+          "date": "2024-06-15",
+          "caseType": "admin",
+          "country": "NL",
+          "authority": "Autoriteit Persoonsgegevens (Dutch DPA)",
+          "authorityShort": "AP",
+          "sourceUrl": "https://www.autoriteitpersoonsgegevens.nl/en/current/dutch-dpa-investigates-biometric-data-at-schiphol-airport",
+          "summary": "荷兰数据保护局（AP）对史基浦机场使用生物识别技术监控员工的情况展开调查。涉及指纹扫描和面部识别技术用于员工考勤和访问控制，可能违反GDPR关于生物识别数据处理的特殊规定。",
+          "tags": [
+            "GDPR",
+            "biometric-data",
+            "airport",
+            "surveillance"
+          ],
+          "fineAmount": null,
+          "fineCurrency": null
+        }
+      ]
+    },
+    "NO": {
+      "code": "NO",
+      "name": "挪威",
+      "nameEn": "Norway",
+      "totalCases": 1,
+      "adminCases": 1,
+      "courtCases": 0,
+      "latestDate": "2024-01-15",
+      "authorities": [
+        "Datatilsynet"
+      ],
+      "cases": [
+        {
+          "id": "NO-A-001",
+          "caseName": "Datatilsynet - Norwegian Air Shuttle 数据处理违规",
+          "caseNameEn": "Datatilsynet decision on Norwegian Air Shuttle data processing",
+          "date": "2024-01-15",
+          "caseType": "admin",
+          "country": "NO",
+          "authority": "Norwegian Data Protection Authority (Datatilsynet)",
+          "authorityShort": "Datatilsynet",
+          "sourceUrl": "https://www.datatilsynet.no/en/about-the-datatilsynet/news/2024/norwegian-air-shuttle-asa/",
+          "summary": "挪威数据保护局对Norwegian Air Shuttle ASA作出决定，认定其在处理客户个人数据时存在违规行为。案件涉及航空公司在订票和旅客服务过程中对个人数据的处理方式。",
+          "tags": [
+            "GDPR",
+            "data-processing",
+            "airline",
+            "passenger-data"
+          ],
+          "fineAmount": null,
+          "fineCurrency": null
+        }
+      ]
+    },
+    "PL": {
+      "code": "PL",
+      "name": "波兰",
+      "nameEn": "Poland",
+      "totalCases": 1,
+      "adminCases": 1,
+      "courtCases": 0,
+      "latestDate": "2023-11-08",
+      "authorities": [
+        "UODO"
+      ],
+      "cases": [
+        {
+          "id": "PL-A-001",
+          "caseName": "UODO - LOT Polish Airlines 数据泄露",
+          "caseNameEn": "UODO decision on LOT Polish Airlines data breach",
+          "date": "2023-11-08",
+          "caseType": "admin",
+          "country": "PL",
+          "authority": "Urzedu Ochrony Danych Osobowych (UODO)",
+          "authorityShort": "UODO",
+          "sourceUrl": "https://uodo.gov.pl/en",
+          "summary": "波兰数据保护局（UODO）对LOT Polish Airlines数据泄露事件作出决定，涉及客户个人信息在网络安全事件中被未授权访问。",
+          "tags": [
+            "GDPR",
+            "data-breach",
+            "airline",
+            "cybersecurity"
+          ],
+          "fineAmount": null,
+          "fineCurrency": null
+        }
+      ]
+    },
+    "PT": {
+      "code": "PT",
+      "name": "葡萄牙",
+      "nameEn": "Portugal",
+      "totalCases": 1,
+      "adminCases": 1,
+      "courtCases": 0,
+      "latestDate": "2024-03-15",
+      "authorities": [
+        "CNPD"
+      ],
+      "cases": [
+        {
+          "id": "PT-A-001",
+          "caseName": "CNPD - TAP Air Portugal 数据泄露",
+          "caseNameEn": "CNPD decision on TAP Air Portugal data breach",
+          "date": "2024-03-15",
+          "caseType": "admin",
+          "country": "PT",
+          "authority": "Comissao Nacional de Proteccao de Dados (CNPD)",
+          "authorityShort": "CNPD",
+          "sourceUrl": "https://www.cnpd.pt/",
+          "summary": "葡萄牙数据保护委员会（CNPD）对TAP Air Portugal数据泄露事件进行调查，涉及客户个人信息在勒索软件攻击中被泄露。",
+          "tags": [
+            "GDPR",
+            "data-breach",
+            "airline",
+            "ransomware"
+          ],
+          "fineAmount": null,
+          "fineCurrency": null
+        }
+      ]
+    },
+    "RO": {
+      "code": "RO",
+      "name": "罗马尼亚",
+      "nameEn": "Romania",
+      "totalCases": 1,
+      "adminCases": 1,
+      "courtCases": 0,
+      "latestDate": "",
+      "authorities": [
+        "ANSPDCP"
+      ],
+      "cases": [
+        {
+          "id": "RO-A-001",
+          "caseName": "Romanian National Supervisory Authority for Personal Data Processing - SC CNTAR TAROM SA",
+          "caseNameEn": "Romanian National Supervisory Authority for Personal Data Processing - SC CNTAR TAROM SA",
+          "country": "RO",
+          "caseType": "admin",
+          "authority": "Romanian National Supervisory Authority for Personal Data Processing (ANSPDCP)",
+          "authorityShort": "ANSPDCP",
+          "date": null,
+          "sourceUrl": "https://www.dataprotection.ro/?page=Sanctiune_CN_TAROM&lang=ro",
+          "summary": "A fine of €20,000 was issued to the Romanian national airline Tarom because it failed to implement the necessary technical measures to ensure the security of personal information. As a consequence of these inadequate measures, a Tarom employee was able to access the flight booking application without authorization and see the personal data of 22 passengers, after which the employee took a photo of the list and made it public online.",
+          "tags": [
+            "GDPR"
+          ],
+          "fineAmount": 20000.0,
+          "fineCurrency": null,
+          "sector": "Aviation",
+          "lastVerified": "2026-06-13",
+          "countryName": "罗马尼亚"
+        }
+      ]
+    },
+    "SE": {
+      "code": "SE",
+      "name": "瑞典",
+      "nameEn": "Sweden",
+      "totalCases": 1,
+      "adminCases": 1,
+      "courtCases": 0,
+      "latestDate": "2023-02-20",
+      "authorities": [
+        "IMY"
+      ],
+      "cases": [
+        {
+          "id": "SE-A-001",
+          "caseName": "IMY Reprimand - Scandinavian Airlines System AB",
+          "caseNameEn": "Swedish DPA Reprimand against SAS (Passenger Data Access Request)",
+          "country": "SE",
+          "countryName": "瑞典",
+          "caseType": "admin",
+          "authority": "Integritetsskyddsmyndigheten (IMY)",
+          "authorityShort": "IMY",
+          "date": "2023-02-20",
+          "sourceUrl": "https://www.edpb.europa.eu/system/files/2023-02/se_2022-07decisionpublic_redacted.pdf",
+          "summary": "IMY对北欧航空(SAS)发出GDPR训诫，因其未在规定时限内回应数据主体访问请求，违反GDPR第12(3)条。虽非罚款，但为正式行政处罚。",
+          "tags": [
+            "GDPR",
+            "data-subject-access",
+            "airline",
+            "reprimand"
+          ],
+          "sourceName": "IMY",
+          "lastVerified": "2026-06-12"
+        }
+      ]
+    },
+    "SG": {
+      "code": "SG",
+      "name": "新加坡",
+      "nameEn": "Singapore",
+      "totalCases": 1,
+      "adminCases": 1,
+      "courtCases": 0,
+      "latestDate": "2025-10-31",
+      "authorities": [
+        "PDPC"
+      ],
+      "cases": [
+        {
+          "id": "SG-A-001",
+          "caseName": "PDPC - Air Sino-Euro Associates Travel 数据泄露",
+          "caseNameEn": "PDPC decision against Air Sino-Euro Associates Travel Pte Ltd",
+          "date": "2025-10-31",
+          "caseType": "admin",
+          "country": "SG",
+          "authority": "Personal Data Protection Commission (PDPC)",
+          "authorityShort": "PDPC",
+          "sourceUrl": "https://www.pdpc.gov.sg/organisations/regulations-decisions/enforcement-decisions",
+          "summary": "新加坡个人数据保护委员会（PDPC）对Air Sino-Euro Associates Travel Pte Ltd作出执法决定，认定其未履行保护义务和问责义务，导致客户个人数据泄露。案件编号：DP-2312-C1857。",
+          "tags": [
+            "PDPA",
+            "data-breach",
+            "travel-agency",
+            "aviation"
+          ],
+          "fineAmount": null,
+          "fineCurrency": null
+        }
+      ]
+    },
+    "TR": {
+      "code": "TR",
+      "name": "土耳其",
+      "nameEn": "Turkey",
+      "totalCases": 2,
+      "adminCases": 2,
+      "courtCases": 0,
+      "latestDate": "2019-10-01",
+      "authorities": [
+        "KVKK"
+      ],
+      "cases": [
+        {
+          "id": "TR-A-002",
+          "caseName": "KVKK İdari Para Cezası - Havayolu Şirketi",
+          "caseNameEn": "KVKK Fine against Airline for Copying National ID Cards",
+          "country": "TR",
+          "countryName": "土耳其",
+          "caseType": "admin",
+          "authority": "Kişisel Verileri Koruma Kurulu (KVKK)",
+          "authorityShort": "KVKK",
+          "date": "2019-10-01",
+          "sourceUrl": "https://www.kvkk.gov.tr/Icerik/6639/Havayolu-Sirketi-Hakkinda-Veri-Koruma-Kurulu-Karari",
+          "summary": "某航空公司因复制客户国民身份证（含血型、宗教等敏感数据），违反数据保护法第4、6、12、18条，被KVKK罚款TRY 100,000，并被责令停止该处理行为。",
+          "tags": [
+            "DPL",
+            "sensitive-data",
+            "national-id",
+            "airline"
+          ],
+          "sourceName": "KVKK",
+          "lastVerified": "2026-06-12"
+        },
+        {
+          "id": "TR-A-001",
+          "caseName": "KVKK İdari Para Cezası - Cathay Pacific Airways",
+          "caseNameEn": "KVKK Fine against Cathay Pacific Airways",
+          "country": "TR",
+          "countryName": "土耳其",
+          "caseType": "admin",
+          "authority": "Kişisel Verileri Koruma Kurulu (KVKK)",
+          "authorityShort": "KVKK",
+          "date": "2019-05-16",
+          "sourceUrl": "https://www.kvkk.gov.tr/Icerik/6638/Cathay-Pacific-Hava-Yollari-Limited-Sirketi-Hakkinda-Veri-Koruma-Kurulu-Karari",
+          "summary": "国泰航空遭受网络攻击，泄露约1,286名土耳其公民的个人数据（含护照号码），且延迟近5个月才向KVKK通报，被罚款TRY 550,000。",
+          "tags": [
+            "DPL",
+            "data-breach",
+            "passenger-data",
+            "passport-data",
+            "late-notification"
+          ],
+          "sourceName": "KVKK",
+          "lastVerified": "2026-06-12"
+        }
+      ]
+    },
+    "US": {
+      "code": "US",
+      "name": "美国",
+      "nameEn": "United States",
+      "totalCases": 7,
+      "adminCases": 4,
+      "courtCases": 3,
+      "latestDate": "2026-04-22",
+      "authorities": [
+        "DOT",
+        "E.D.N.Y.",
+        "FTC",
+        "N.D. Ill.",
+        "W.D. Tex."
+      ],
+      "cases": [
+        {
+          "id": "US-C-003",
+          "caseName": "Phillips v. JetBlue Airways Corporation",
+          "caseNameEn": "Phillips v. JetBlue Airways Corporation",
+          "country": "US",
+          "countryName": "美国",
+          "caseType": "court",
+          "authority": "U.S. District Court for the Eastern District of New York",
+          "authorityShort": "E.D.N.Y.",
+          "date": "2026-04-22",
+          "sourceUrl": "https://www.courtlistener.com/docket/69562327/phillips-v-jetblue-airways-corporation/",
+          "summary": "集体诉讼指控JetBlue Airways使用客户个人数据进行\"监控定价\"（surveillance pricing），即根据旅客浏览历史和个人数据动态调整机票价格，违反隐私政策未披露此做法。",
+          "tags": [
+            "privacy",
+            "surveillance-pricing",
+            "airline",
+            "class-action",
+            "personal-data"
+          ],
+          "sourceName": "CourtListener",
+          "lastVerified": "2026-06-12"
+        },
+        {
+          "id": "US-C-002",
+          "caseName": "FlightAware Data Breach Class Action",
+          "caseNameEn": "FlightAware Data Breach Class Action",
+          "country": "US",
+          "countryName": "美国",
+          "caseType": "court",
+          "authority": "U.S. District Court for the Western District of Texas",
+          "authorityShort": "W.D. Tex.",
+          "date": "2024-08-28",
+          "sourceUrl": "https://news.bloomberglaw.com/litigation/flightaware-hit-with-class-action-over-breach-of-scraped-data",
+          "summary": "FlightAware（航空飞行追踪公司）因2024年7月数据泄露暴露数千名消费者个人信息，被提起集体诉讼。原告指控其未能保护所收集和\"抓取\"的个人数据。",
+          "tags": [
+            "data-breach",
+            "aviation-data",
+            "class-action",
+            "personal-data"
+          ],
+          "sourceName": "CourtListener",
+          "lastVerified": "2026-06-12"
+        },
+        {
+          "id": "US-A-004",
+          "caseName": "FTC - JetBlue Surveillance Pricing Investigation",
+          "caseNameEn": "FTC Market Study on Surveillance Pricing (Airlines included)",
+          "country": "US",
+          "countryName": "美国",
+          "caseType": "admin",
+          "authority": "Federal Trade Commission (FTC)",
+          "authorityShort": "FTC",
+          "date": "2024-01-11",
+          "sourceUrl": "https://www.ftc.gov/news-events/news/press-releases/2024/01/ftc-launches-surveillance-pricing-study",
+          "summary": "FTC于2024年1月向8家公司发出强制令，收集有关\"监控定价\"做法的信息，即利用消费者个人数据和行为分析动态调整价格。航空旅行是主要受关注领域之一，旅客依据其浏览历史、位置和设备信息可能面临差异化定价。",
+          "tags": [
+            "FTC",
+            "surveillance-pricing",
+            "consumer-data",
+            "airline",
+            "investigation"
+          ],
+          "fineAmount": null,
+          "fineCurrency": null,
+          "sector": "Aviation",
+          "sourceName": "FTC",
+          "lastVerified": "2026-06-13"
+        },
+        {
+          "id": "US-A-003",
+          "caseName": "In the Matter of Sabre Corporation",
+          "caseNameEn": "FTC Consent Order - Sabre Corporation (Travel Booking System)",
+          "country": "US",
+          "countryName": "美国",
+          "caseType": "admin",
+          "authority": "Federal Trade Commission (FTC)",
+          "authorityShort": "FTC",
+          "date": "2023-06-22",
+          "sourceUrl": "https://www.ftc.gov/enforcement/cases-proceedings/2023152/sabre-corporation",
+          "summary": "FTC对旅游技术公司Sabre Corporation提起执法行动，指控其在GDS（全球分销系统）中存在数据安全漏洞，使得黑客在2017年得以访问约1.27亿笔酒店预订数据，涉及航空旅客酒店预订信息。FTC发布同意令，要求Sabre建立全面的信息安全项目。",
+          "tags": [
+            "FTC",
+            "data-breach",
+            "GDS",
+            "booking-system",
+            "travel-tech"
+          ],
+          "fineAmount": null,
+          "fineCurrency": null,
+          "sector": "Aviation",
+          "sourceName": "FTC",
+          "lastVerified": "2026-06-13"
+        },
+        {
+          "id": "US-A-002",
+          "caseName": "DOT Order 2023-6-3 - American Airlines Privacy Policy",
+          "caseNameEn": "DOT Civil Penalty - American Airlines (Privacy Policy Disclosure)",
+          "country": "US",
+          "countryName": "美国",
+          "caseType": "admin",
+          "authority": "U.S. Department of Transportation (DOT) - Aviation Consumer Protection",
+          "authorityShort": "DOT",
+          "date": "2023-06-01",
+          "sourceUrl": "https://www.transportation.gov/airconsumer/aviation-consumer-protection",
+          "summary": "美国运输部(DOT)对美国航空(American Airlines)展开调查，涉及其隐私政策未充分披露旅客数据如何被收集、使用和共享。DOT依据49 U.S.C. § 41712（不公平和欺骗性行为）的授权，可对违规航空公司处以民事罚款。",
+          "tags": [
+            "DOT",
+            "privacy-policy",
+            "airline",
+            "consumer-protection"
+          ],
+          "fineAmount": null,
+          "fineCurrency": null,
+          "sector": "Aviation",
+          "sourceName": "DOT",
+          "lastVerified": "2026-06-13"
+        },
+        {
+          "id": "US-C-001",
+          "caseName": "In re United Airlines Biometric Privacy Class Action",
+          "caseNameEn": "In re United Airlines Biometric Privacy Class Action (BIPA)",
+          "country": "US",
+          "countryName": "美国",
+          "caseType": "court",
+          "authority": "U.S. District Court for the Northern District of Illinois",
+          "authorityShort": "N.D. Ill.",
+          "date": "2022-03-23",
+          "sourceUrl": "https://www.courthousenews.com/wp-content/uploads/2022/03/privacy-airline-ruling.pdf",
+          "summary": "联合航空因使用指纹/面部识别进行员工考勤，被诉违反伊利诺伊州《生物识别信息隐私法》(BIPA)。法院部分支持了原告的BIPA主张，认定航空公司收集生物识别数据需遵守BIPA的告知和同意要求。",
+          "tags": [
+            "BIPA",
+            "biometric-data",
+            "airline",
+            "class-action",
+            "employee-data"
+          ],
+          "sourceName": "CourtListener",
+          "lastVerified": "2026-06-12"
+        },
+        {
+          "id": "US-A-001",
+          "caseName": "FTC v. Carnival Corporation (Cruise/Travel Data)",
+          "caseNameEn": "FTC Investigation - Carnival Corporation Data Security",
+          "country": "US",
+          "countryName": "美国",
+          "caseType": "admin",
+          "authority": "Federal Trade Commission (FTC)",
+          "authorityShort": "FTC",
+          "date": "2021-07-19",
+          "sourceUrl": "https://www.ftc.gov/enforcement/cases-proceedings/2023074/carnival-corporation",
+          "summary": "FTC对嘉年华邮轮公司展开数据安全调查，涉及其多次数据泄露事件及未能充分保护旅客个人信息。虽主要涉及邮轮，但其旅游数据保护框架对航空旅行具有参考价值。FTC要求强化安全措施。",
+          "tags": [
+            "FTC",
+            "data-breach",
+            "travel-industry",
+            "passenger-data"
+          ],
+          "fineAmount": null,
+          "fineCurrency": null,
+          "sector": "Aviation",
+          "sourceName": "FTC",
+          "lastVerified": "2026-06-13"
+        }
+      ]
+    }
+  }
+}
