@@ -1,0 +1,131 @@
+============================================================
+  Merge & Generate: Aviation Data Protection Cases
+============================================================
+
+[Load] Existing cases: 30
+
+==================================================
+Running ICO collector...
+==================================================
+=== ICO UK Collection ===
+
+Processing 3 known ICO aviation cases...
+  Skip (exists): ICO Fine against British Airways plc
+  Skip (exists): ICO Fine against Cathay Pacific Airways Limited
+  Skip (exists): ICO Reprimand - easyJet plc (2020 Data Breach)
+
+Scraping ICO enforcement pages for additional aviation cases...
+  ICO page returned 404: https://ico.org.uk/action-weve-taken/reprimands/
+
+Total ICO aviation cases: 0
+  → 0 cases collected
+
+==================================================
+Running CNIL+AEPD collector...
+==================================================
+=== CNIL + AEPD Collection ===
+
+[CNIL] Processing 2 known cases...
+  Skip (exists): CNIL Délibération SAN-2022-009 - Derichebourg Multiservices
+  Skip (exists): CNIL Délibération - Air France (Données clients)
+
+Trying CNIL open data API...
+  Found 6 resources
+  CSV found: https://static.data.gouv.fr/resources/sanctions-prononcees-par-la-cnil/20250505-171949/opencnil-sanctions-montant-amendes-par-annee-20250505.csv
+  Downloading CNIL CSV: https://static.data.gouv.fr/resources/sanctions-prononcees-par-la-cnil/20250505-171949/opencnil-sanctions-montant-amendes-par-annee-20250505.csv
+  Found 0 aviation cases in CNIL CSV
+
+[AEPD] Processing 5 known cases...
+  Skip (exists): AEPD Sanción a Aena S.M.E., S.A. - Reconocimiento Facial
+  Skip (exists): AEPD Sanción a Iberia Líneas Aéreas de España, S.A. Operador
+  Skip (exists): AEPD Sanción a Vueling Airlines, S.A.
+  Skip (exists): AEPD Sanción a Ryanair DAC
+  Skip (exists): AEPD Sanción a compañía aérea por brecha de datos (€650,000)
+
+Total CNIL+AEPD aviation cases: 0
+  → 0 cases collected
+
+==================================================
+Running FTC collector...
+==================================================
+=== FTC + DOT Collection ===
+
+[FTC] Processing 3 known FTC aviation cases...
+  Skip (exists): In the Matter of Sabre Corporation
+  Skip (exists): FTC v. Carnival Corporation (Cruise/Travel Data)
+  Skip (exists): FTC - JetBlue Surveillance Pricing Investigation
+
+[DOT] Processing 1 known DOT aviation cases...
+  Skip (exists): DOT Order 2023-6-3 - American Airlines Privacy Policy
+
+Searching FTC website for aviation data cases...
+
+Total FTC+DOT aviation cases: 0
+  → 0 cases collected
+
+==================================================
+Running CourtListener collector...
+==================================================
+=== CourtListener API Collection ===
+
+Query: 'airline privacy data breach'
+  Error: 403 Client Error: Forbidden for url: https://www.courtlistener.com/api/rest/v3/search/?type=o&q=airline+privacy+data+breach&order_by=score+desc&stat_Precedential=on&stat_Non-Precedential=on&page=1
+
+Query: 'airline biometric BIPA'
+  Error: 403 Client Error: Forbidden for url: https://www.courtlistener.com/api/rest/v3/search/?type=o&q=airline+biometric+BIPA&order_by=score+desc&stat_Precedential=on&stat_Non-Precedential=on&page=1
+
+Query: 'aviation data protection personal information'
+  Error: 403 Client Error: Forbidden for url: https://www.courtlistener.com/api/rest/v3/search/?type=o&q=aviation+data+protection+personal+information&order_by=score+desc&stat_Precedential=on&stat_Non-Precedential=on&page=1
+
+Query: 'airline passenger data surveillance'
+  Error: 403 Client Error: Forbidden for url: https://www.courtlistener.com/api/rest/v3/search/?type=o&q=airline+passenger+data+surveillance&order_by=score+desc&stat_Precedential=on&stat_Non-Precedential=on&page=1
+
+Query: 'airline data security class action'
+  Error: 403 Client Error: Forbidden for url: https://www.courtlistener.com/api/rest/v3/search/?type=o&q=airline+data+security+class+action&order_by=score+desc&stat_Precedential=on&stat_Non-Precedential=on&page=1
+
+Query: 'airport facial recognition privacy'
+  Error: 403 Client Error: Forbidden for url: https://www.courtlistener.com/api/rest/v3/search/?type=o&q=airport+facial+recognition+privacy&order_by=score+desc&stat_Precedential=on&stat_Non-Precedential=on&page=1
+
+Query: 'PNR passenger name record privacy'
+  Error: 403 Client Error: Forbidden for url: https://www.courtlistener.com/api/rest/v3/search/?type=o&q=PNR+passenger+name+record+privacy&order_by=score+desc&stat_Precedential=on&stat_Non-Precedential=on&page=1
+
+Total new aviation privacy cases: 0
+  → 0 cases collected
+
+==================================================
+Running GDPR CSV collector...
+==================================================
+Downloading GDPR fines CSV...
+  Found: British Airways (GB) - 22046000
+  Found: Centro de Estudio Dirigidos Delta, S.L. (ES) - 5000
+  Found: Iberia Lae SA Operadora Unipersonal (ES) - 40000
+  Found: Barcelona Airport Security Guard Association (‘AVSAB’) (ES) - 3000
+  Found: Banco Bilbao Vizcaya Argentaria, S.A. (ES) - 36000
+
+Total aviation cases from GDPR CSV: 5
+  → 5 cases collected
+
+[Collect] Total new cases from collectors: 5
+[Merge] Total before dedup: 35
+[Dedup] After dedup: 31 (removed 4 duplicates)
+[IDs] Assigned IDs to 31 cases
+
+[Summary] Cases by country:
+  ES: 7
+  US: 7
+  GB: 4
+  BE: 2
+  FR: 2
+  TR: 2
+  AU: 1
+  CN: 1
+  CY: 1
+  HK: 1
+  IT: 1
+  RO: 1
+  SE: 1
+
+[Save] cases.json: 31 cases → C:\Users\qwesz\WorkBuddy\2026-06-12-15-13-12\scripts\collect\..\..\data\cases.json
+[Save] countries.json: 13 countries → C:\Users\qwesz\WorkBuddy\2026-06-12-15-13-12\scripts\collect\..\..\data\countries.json
+
+✓ Done!
