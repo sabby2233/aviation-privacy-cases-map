@@ -1,0 +1,92 @@
+/* style.css — 自定义样式（覆盖/补充 Tailwind CDN） */
+
+/* ── Base ── */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  overflow: hidden;
+  height: 100%;
+}
+
+/* ── Map ── */
+#world-map {
+  display: block;
+}
+
+.country {
+  cursor: pointer;
+  transition: fill 0.2s ease, stroke-width 0.15s ease;
+}
+
+.country:hover {
+  filter: brightness(1.2);
+}
+
+/* ── Tooltip ── */
+#tooltip {
+  max-width: 220px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+/* ── Sidebar ── */
+#sidebar {
+  scrollbar-width: thin;
+  scrollbar-color: #334155 transparent;
+}
+
+#sidebar::-webkit-scrollbar {
+  width: 5px;
+}
+
+#sidebar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#sidebar::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 3px;
+}
+
+/* ── Case link hover ── */
+a[href^="http"]:hover svg {
+  opacity: 1;
+}
+
+/* ── Legend ── */
+#legend {
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+/* ── Responsive adjustments ── */
+@media (max-width: 1024px) {
+  #legend {
+    bottom: 1rem;
+    left: 1rem;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.65rem;
+  }
+}
+
+/* ── Loading animation ── */
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.animate-pulse {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+/* ── Transition helpers ── */
+.transition-colors {
+  transition: color 0.15s ease, background-color 0.15s ease;
+}
+
+.transition-transform {
+  transition: transform 0.2s ease;
+}
