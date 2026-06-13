@@ -1,0 +1,85 @@
+name: Monthly Aviation Cases Update
+
+on:
+  # Run on the 1st of every month at 08:00 UTC
+  schedule:
+    - cron: '0 8 1 * *'
+  # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      force_update:
+        description: 'Force update even if no new cases found'
+        required: false
+        default: 'false'
+
+jobs:
+  update-cases:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 lxml python-dateutil
+
+      - name: Run data collection
+        env:
+          CL_API_TOKEN: ${{ secrets.COURTLISTENER_TOKEN }}
+          PYTHONIOENCODING: utf-8
+        run: |
+          cd scripts
+          python collect/merge_and_generate.py 2>&1 | tee ../data/last_update.log
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet data/cases.json data/countries.json; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No changes to case data"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            # Count new cases
+            NEW_COUNT=$(git diff data/cases.json | grep '"id"' | grep '^+' | wc -l)
+            echo "new_cases=$NEW_COUNT" >> $GITHUB_OUTPUT
+            echo "Found $NEW_COUNT new cases"
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changed == 'true' || github.event.inputs.force_update == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/cases.json data/countries.json data/last_update.log
+          git commit -m "chore: auto-update cases data $(date +%Y-%m-%d) (+${{ steps.check_changes.outputs.new_cases || 0 }} new cases)"
+          git push
+
+      - name: Create summary
+        run: |
+          echo "## Update Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ -f data/countries.json ]; then
+            TOTAL=$(python -c "import json; d=json.load(open('data/countries.json')); print(d['totalCases'])")
+            COUNTRIES=$(python -c "import json; d=json.load(open('data/countries.json')); print(len(d['countries']))")
+            echo "- **Total cases:** $TOTAL" >> $GITHUB_STEP_SUMMARY
+            echo "- **Countries covered:** $COUNTRIES" >> $GITHUB_STEP_SUMMARY
+            echo "- **Last updated:** $(date +%Y-%m-%d)" >> $GITHUB_STEP_SUMMARY
+          fi
+          if [ "${{ steps.check_changes.outputs.changed }}" == "true" ]; then
+            echo "- **New cases added:** ${{ steps.check_changes.outputs.new_cases }}" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "- No new cases found" >> $GITHUB_STEP_SUMMARY
+          fi
