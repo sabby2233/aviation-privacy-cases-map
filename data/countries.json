@@ -1,6 +1,6 @@
 {
-  "version": "20260613",
-  "generatedAt": "2026-06-13T16:23:16.996145",
+  "version": "20260626",
+  "generatedAt": "2026-06-26T10:53:59.003243",
   "totalCases": 49,
   "totalCountries": 27,
   "countries": {
@@ -11,6 +11,8 @@
       "totalCases": 10,
       "adminCases": 10,
       "courtCases": 0,
+      "aviationCases": 10,
+      "lowAltitudeCases": 0,
       "latestDate": "2026-05-27",
       "authorities": [
         "AEPD"
@@ -39,7 +41,8 @@
           "fineAmount": 14400000,
           "fineCurrency": "EUR",
           "sourceName": "AEPD",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         },
         {
           "id": "ES-A-008",
@@ -64,7 +67,8 @@
           "fineAmount": 10043002,
           "fineCurrency": "EUR",
           "sourceName": "AEPD",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         },
         {
           "id": "ES-A-010",
@@ -87,7 +91,8 @@
           "fineAmount": 20000,
           "fineCurrency": "EUR",
           "sourceName": "AEPD",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         },
         {
           "id": "ES-A-007",
@@ -110,7 +115,8 @@
           "fineAmount": 650000,
           "fineCurrency": "EUR",
           "sourceName": "AEPD",
-          "lastVerified": "2026-06-12"
+          "lastVerified": "2026-06-12",
+          "isLowAltitude": false
         },
         {
           "id": "ES-A-006",
@@ -134,7 +140,8 @@
           "fineAmount": 200000,
           "fineCurrency": "EUR",
           "sourceName": "AEPD",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         },
         {
           "id": "ES-A-005",
@@ -157,7 +164,8 @@
           "fineAmount": 60000,
           "fineCurrency": "EUR",
           "sourceName": "AEPD",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         },
         {
           "id": "ES-A-004",
@@ -180,7 +188,8 @@
           "fineAmount": 30000,
           "fineCurrency": "EUR",
           "sourceName": "AEPD",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         },
         {
           "id": "ES-A-003",
@@ -203,7 +212,8 @@
           "fineAmount": 30000,
           "fineCurrency": "EUR",
           "sourceName": "AEPD",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         },
         {
           "id": "ES-A-002",
@@ -226,7 +236,8 @@
           "fineAmount": 20000,
           "fineCurrency": "EUR",
           "sourceName": "AEPD",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         },
         {
           "id": "ES-A-001",
@@ -249,7 +260,8 @@
           "fineAmount": 30000,
           "fineCurrency": "EUR",
           "sourceName": "AEPD",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         }
       ]
     },
@@ -260,6 +272,8 @@
       "totalCases": 3,
       "adminCases": 3,
       "courtCases": 0,
+      "aviationCases": 3,
+      "lowAltitudeCases": 0,
       "latestDate": "2020-10-16",
       "authorities": [
         "ICO"
@@ -286,7 +300,8 @@
           "fineAmount": 20000000,
           "fineCurrency": "GBP",
           "sourceName": "ICO",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         },
         {
           "id": "GB-A-002",
@@ -309,7 +324,8 @@
           "fineAmount": null,
           "fineCurrency": null,
           "sourceName": "ICO",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         },
         {
           "id": "GB-A-001",
@@ -332,7 +348,8 @@
           "fineAmount": 500000,
           "fineCurrency": "GBP",
           "sourceName": "ICO",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         }
       ]
     },
@@ -343,6 +360,8 @@
       "totalCases": 2,
       "adminCases": 2,
       "courtCases": 0,
+      "aviationCases": 2,
+      "lowAltitudeCases": 0,
       "latestDate": "2025-08-06",
       "authorities": [
         "CNIL"
@@ -369,7 +388,8 @@
           "fineAmount": null,
           "fineCurrency": null,
           "sourceName": "CNIL",
-          "lastVerified": "2026-06-12"
+          "lastVerified": "2026-06-12",
+          "isLowAltitude": false
         },
         {
           "id": "FR-A-001",
@@ -393,7 +413,8 @@
           "fineAmount": 400000,
           "fineCurrency": "EUR",
           "sourceName": "CNIL",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         }
       ]
     },
@@ -404,6 +425,8 @@
       "totalCases": 1,
       "adminCases": 1,
       "courtCases": 0,
+      "aviationCases": 1,
+      "lowAltitudeCases": 0,
       "latestDate": "2025-11-06",
       "authorities": [
         "BfDI"
@@ -432,7 +455,8 @@
           "fineAmount": null,
           "fineCurrency": null,
           "sourceName": "BfDI",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         }
       ]
     },
@@ -443,6 +467,8 @@
       "totalCases": 2,
       "adminCases": 1,
       "courtCases": 1,
+      "aviationCases": 2,
+      "lowAltitudeCases": 0,
       "latestDate": "2022-06-21",
       "authorities": [
         "APD/GBA",
@@ -470,7 +496,8 @@
             "proportionality"
           ],
           "sourceName": "CURIA",
-          "lastVerified": "2026-06-12"
+          "lastVerified": "2026-06-12",
+          "isLowAltitude": false
         },
         {
           "id": "BE-A-001",
@@ -495,7 +522,8 @@
           "fineAmount": 200000,
           "fineCurrency": "EUR",
           "sourceName": "APD/GBA",
-          "lastVerified": "2026-06-12"
+          "lastVerified": "2026-06-12",
+          "isLowAltitude": false
         }
       ]
     },
@@ -506,6 +534,8 @@
       "totalCases": 3,
       "adminCases": 3,
       "courtCases": 0,
+      "aviationCases": 3,
+      "lowAltitudeCases": 0,
       "latestDate": "2026-03-04",
       "authorities": [
         "Garante"
@@ -532,7 +562,8 @@
           "fineAmount": 1000000,
           "fineCurrency": "EUR",
           "sourceName": "Garante",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         },
         {
           "id": "IT-A-002",
@@ -555,7 +586,8 @@
           "fineAmount": 250000,
           "fineCurrency": "EUR",
           "sourceName": "Garante",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         },
         {
           "id": "IT-A-003",
@@ -580,7 +612,8 @@
           "fineAmount": null,
           "fineCurrency": null,
           "sourceName": "NOYB/Garante",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         }
       ]
     },
@@ -591,6 +624,8 @@
       "totalCases": 1,
       "adminCases": 1,
       "courtCases": 0,
+      "aviationCases": 1,
+      "lowAltitudeCases": 0,
       "latestDate": "2020-06-15",
       "authorities": [
         "ANSPDCP"
@@ -618,7 +653,8 @@
           "fineAmount": 20000,
           "fineCurrency": "EUR",
           "sourceName": "ANSPDCP",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         }
       ]
     },
@@ -629,6 +665,8 @@
       "totalCases": 1,
       "adminCases": 1,
       "courtCases": 0,
+      "aviationCases": 1,
+      "lowAltitudeCases": 0,
       "latestDate": "2019-07-15",
       "authorities": [
         "Cyprus DPA"
@@ -656,7 +694,8 @@
           "fineAmount": 2000,
           "fineCurrency": "EUR",
           "sourceName": "Cyprus DPA",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         }
       ]
     },
@@ -667,6 +706,8 @@
       "totalCases": 1,
       "adminCases": 1,
       "courtCases": 0,
+      "aviationCases": 1,
+      "lowAltitudeCases": 0,
       "latestDate": "2023-02-20",
       "authorities": [
         "IMY"
@@ -693,7 +734,8 @@
           "fineAmount": null,
           "fineCurrency": null,
           "sourceName": "IMY",
-          "lastVerified": "2026-06-12"
+          "lastVerified": "2026-06-12",
+          "isLowAltitude": false
         }
       ]
     },
@@ -704,6 +746,8 @@
       "totalCases": 2,
       "adminCases": 2,
       "courtCases": 0,
+      "aviationCases": 2,
+      "lowAltitudeCases": 0,
       "latestDate": "2019-10-01",
       "authorities": [
         "KVKK"
@@ -730,7 +774,8 @@
           "fineAmount": 100000,
           "fineCurrency": "TRY",
           "sourceName": "KVKK",
-          "lastVerified": "2026-06-12"
+          "lastVerified": "2026-06-12",
+          "isLowAltitude": false
         },
         {
           "id": "TR-A-001",
@@ -754,7 +799,8 @@
           "fineAmount": 550000,
           "fineCurrency": "TRY",
           "sourceName": "KVKK",
-          "lastVerified": "2026-06-12"
+          "lastVerified": "2026-06-12",
+          "isLowAltitude": false
         }
       ]
     },
@@ -765,6 +811,8 @@
       "totalCases": 7,
       "adminCases": 4,
       "courtCases": 3,
+      "aviationCases": 7,
+      "lowAltitudeCases": 0,
       "latestDate": "2026-04-22",
       "authorities": [
         "FTC",
@@ -794,7 +842,8 @@
             "personal-data"
           ],
           "sourceName": "CourtListener",
-          "lastVerified": "2026-06-12"
+          "lastVerified": "2026-06-12",
+          "isLowAltitude": false
         },
         {
           "id": "US-C-002",
@@ -815,7 +864,8 @@
             "personal-data"
           ],
           "sourceName": "CourtListener",
-          "lastVerified": "2026-06-12"
+          "lastVerified": "2026-06-12",
+          "isLowAltitude": false
         },
         {
           "id": "US-A-004",
@@ -839,7 +889,8 @@
           "fineAmount": null,
           "fineCurrency": null,
           "sourceName": "FTC",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         },
         {
           "id": "US-A-003",
@@ -863,7 +914,8 @@
           "fineAmount": null,
           "fineCurrency": null,
           "sourceName": "FTC",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         },
         {
           "id": "US-A-002",
@@ -886,7 +938,8 @@
           "fineAmount": null,
           "fineCurrency": null,
           "sourceName": "DOT",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         },
         {
           "id": "US-C-001",
@@ -908,7 +961,8 @@
             "employee-data"
           ],
           "sourceName": "CourtListener",
-          "lastVerified": "2026-06-12"
+          "lastVerified": "2026-06-12",
+          "isLowAltitude": false
         },
         {
           "id": "US-A-001",
@@ -931,7 +985,8 @@
           "fineAmount": null,
           "fineCurrency": null,
           "sourceName": "FTC",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         }
       ]
     },
@@ -942,6 +997,8 @@
       "totalCases": 1,
       "adminCases": 1,
       "courtCases": 0,
+      "aviationCases": 1,
+      "lowAltitudeCases": 0,
       "latestDate": "2025-08-12",
       "authorities": [
         "OPC"
@@ -968,7 +1025,8 @@
           "fineAmount": null,
           "fineCurrency": null,
           "sourceName": "OPC",
-          "lastVerified": "2026-06-12"
+          "lastVerified": "2026-06-12",
+          "isLowAltitude": false
         }
       ]
     },
@@ -979,6 +1037,8 @@
       "totalCases": 1,
       "adminCases": 1,
       "courtCases": 0,
+      "aviationCases": 1,
+      "lowAltitudeCases": 0,
       "latestDate": "2025-07-18",
       "authorities": [
         "OAIC"
@@ -1005,7 +1065,8 @@
           "fineAmount": null,
           "fineCurrency": null,
           "sourceName": "OAIC",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         }
       ]
     },
@@ -1016,6 +1077,8 @@
       "totalCases": 1,
       "adminCases": 1,
       "courtCases": 0,
+      "aviationCases": 1,
+      "lowAltitudeCases": 0,
       "latestDate": "2024-01-15",
       "authorities": [
         "Datatilsynet"
@@ -1042,7 +1105,8 @@
           "fineAmount": null,
           "fineCurrency": null,
           "sourceName": "Datatilsynet",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         }
       ]
     },
@@ -1053,6 +1117,8 @@
       "totalCases": 1,
       "adminCases": 1,
       "courtCases": 0,
+      "aviationCases": 1,
+      "lowAltitudeCases": 0,
       "latestDate": "2024-06-15",
       "authorities": [
         "AP"
@@ -1080,7 +1146,8 @@
           "fineAmount": null,
           "fineCurrency": null,
           "sourceName": "AP",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         }
       ]
     },
@@ -1091,6 +1158,8 @@
       "totalCases": 1,
       "adminCases": 1,
       "courtCases": 0,
+      "aviationCases": 1,
+      "lowAltitudeCases": 0,
       "latestDate": "2025-01-15",
       "authorities": [
         "NAIH"
@@ -1117,7 +1186,8 @@
           "fineAmount": null,
           "fineCurrency": null,
           "sourceName": "NAIH",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         }
       ]
     },
@@ -1128,6 +1198,8 @@
       "totalCases": 1,
       "adminCases": 1,
       "courtCases": 0,
+      "aviationCases": 1,
+      "lowAltitudeCases": 0,
       "latestDate": "2024-09-20",
       "authorities": [
         "FDPIC"
@@ -1154,7 +1226,8 @@
           "fineAmount": null,
           "fineCurrency": null,
           "sourceName": "FDPIC",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         }
       ]
     },
@@ -1165,6 +1238,8 @@
       "totalCases": 1,
       "adminCases": 1,
       "courtCases": 0,
+      "aviationCases": 1,
+      "lowAltitudeCases": 0,
       "latestDate": "2023-12-20",
       "authorities": [
         "PIPC"
@@ -1191,7 +1266,8 @@
           "fineAmount": null,
           "fineCurrency": null,
           "sourceName": "PIPC",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         }
       ]
     },
@@ -1202,6 +1278,8 @@
       "totalCases": 1,
       "adminCases": 1,
       "courtCases": 0,
+      "aviationCases": 1,
+      "lowAltitudeCases": 0,
       "latestDate": "2024-05-15",
       "authorities": [
         "DPBI"
@@ -1229,7 +1307,8 @@
           "fineAmount": null,
           "fineCurrency": null,
           "sourceName": "DPBI",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         }
       ]
     },
@@ -1240,6 +1319,8 @@
       "totalCases": 1,
       "adminCases": 1,
       "courtCases": 0,
+      "aviationCases": 1,
+      "lowAltitudeCases": 0,
       "latestDate": "2025-10-31",
       "authorities": [
         "PDPC"
@@ -1266,7 +1347,8 @@
           "fineAmount": 47000,
           "fineCurrency": "SGD",
           "sourceName": "PDPC",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         }
       ]
     },
@@ -1277,6 +1359,8 @@
       "totalCases": 1,
       "adminCases": 0,
       "courtCases": 1,
+      "aviationCases": 1,
+      "lowAltitudeCases": 0,
       "latestDate": "2016-01-20",
       "authorities": [
         "海淀法院"
@@ -1301,7 +1385,8 @@
             "civil-litigation"
           ],
           "sourceName": "China Courts",
-          "lastVerified": "2026-06-12"
+          "lastVerified": "2026-06-12",
+          "isLowAltitude": false
         }
       ]
     },
@@ -1312,6 +1397,8 @@
       "totalCases": 1,
       "adminCases": 1,
       "courtCases": 0,
+      "aviationCases": 1,
+      "lowAltitudeCases": 0,
       "latestDate": "2026-03-27",
       "authorities": [
         "PCPD"
@@ -1336,7 +1423,8 @@
             "third-party"
           ],
           "sourceName": "PCPD",
-          "lastVerified": "2026-06-12"
+          "lastVerified": "2026-06-12",
+          "isLowAltitude": false
         }
       ]
     },
@@ -1347,6 +1435,8 @@
       "totalCases": 1,
       "adminCases": 1,
       "courtCases": 0,
+      "aviationCases": 1,
+      "lowAltitudeCases": 0,
       "latestDate": "2023-06-20",
       "authorities": [
         "DSB"
@@ -1373,7 +1463,8 @@
           "fineAmount": null,
           "fineCurrency": null,
           "sourceName": "DSB",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         }
       ]
     },
@@ -1384,6 +1475,8 @@
       "totalCases": 1,
       "adminCases": 1,
       "courtCases": 0,
+      "aviationCases": 1,
+      "lowAltitudeCases": 0,
       "latestDate": "2024-03-15",
       "authorities": [
         "CNPD"
@@ -1410,7 +1503,8 @@
           "fineAmount": null,
           "fineCurrency": null,
           "sourceName": "CNPD",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         }
       ]
     },
@@ -1421,6 +1515,8 @@
       "totalCases": 1,
       "adminCases": 1,
       "courtCases": 0,
+      "aviationCases": 1,
+      "lowAltitudeCases": 0,
       "latestDate": "2024-07-10",
       "authorities": [
         "DPC"
@@ -1447,7 +1543,8 @@
           "fineAmount": null,
           "fineCurrency": null,
           "sourceName": "DPC",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         }
       ]
     },
@@ -1458,6 +1555,8 @@
       "totalCases": 1,
       "adminCases": 1,
       "courtCases": 0,
+      "aviationCases": 1,
+      "lowAltitudeCases": 0,
       "latestDate": "2023-11-08",
       "authorities": [
         "UODO"
@@ -1484,7 +1583,8 @@
           "fineAmount": null,
           "fineCurrency": null,
           "sourceName": "UODO",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         }
       ]
     },
@@ -1495,6 +1595,8 @@
       "totalCases": 1,
       "adminCases": 1,
       "courtCases": 0,
+      "aviationCases": 1,
+      "lowAltitudeCases": 0,
       "latestDate": "2023-08-22",
       "authorities": [
         "Datatilsynet"
@@ -1521,7 +1623,8 @@
           "fineAmount": null,
           "fineCurrency": null,
           "sourceName": "Datatilsynet",
-          "lastVerified": "2026-06-13"
+          "lastVerified": "2026-06-13",
+          "isLowAltitude": false
         }
       ]
     }
