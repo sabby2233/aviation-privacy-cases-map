@@ -43,19 +43,29 @@ const Sidebar = (() => {
     // Calculate totals
     let totalCourt = 0;
     let totalAdmin = 0;
+    let totalLowAltitude = 0;
+    let totalAviation = 0;
     for (const info of Object.values(countries)) {
       totalCourt += (info.courtCount || info.courtCases || 0);
       totalAdmin += (info.adminCount || info.adminCases || 0);
+      totalLowAltitude += (info.lowAltitudeCount || info.lowAltitudeCases || 0);
+      totalAviation += (info.aviationCount || info.aviationCases || 0);
     }
 
     // Render stats
     const statsEl = document.getElementById('global-stats');
     statsEl.innerHTML = `
-      <div class="grid grid-cols-3 gap-3">
+      <div class="grid grid-cols-2 gap-3">
         <div class="bg-gray-800/50 rounded-lg p-3 text-center">
           <div class="text-2xl font-bold text-sky-400">${totalCases}</div>
           <div class="text-xs text-gray-500 mt-1">案例总数</div>
         </div>
+        <div class="bg-gray-800/50 rounded-lg p-3 text-center">
+          <div class="text-2xl font-bold text-gray-200">${totalCountries}</div>
+          <div class="text-xs text-gray-500 mt-1">涉及国家/地区</div>
+        </div>
+      </div>
+      <div class="grid grid-cols-3 gap-3">
         <div class="bg-gray-800/50 rounded-lg p-3 text-center">
           <div class="text-2xl font-bold text-amber-400">${totalCourt}</div>
           <div class="text-xs text-gray-500 mt-1">法院判决</div>
@@ -64,10 +74,10 @@ const Sidebar = (() => {
           <div class="text-2xl font-bold text-emerald-400">${totalAdmin}</div>
           <div class="text-xs text-gray-500 mt-1">行政决定</div>
         </div>
-      </div>
-      <div class="bg-gray-800/50 rounded-lg p-3 text-center">
-        <div class="text-2xl font-bold text-gray-200">${totalCountries}</div>
-        <div class="text-xs text-gray-500 mt-1">涉及国家/地区</div>
+        <div class="bg-gray-800/50 rounded-lg p-3 text-center">
+          <div class="text-2xl font-bold text-violet-400">${totalLowAltitude}</div>
+          <div class="text-xs text-gray-500 mt-1">低空类</div>
+        </div>
       </div>
     `;
 
@@ -88,6 +98,7 @@ const Sidebar = (() => {
             <span class="text-amber-400">${info.courtCount || info.courtCases || 0}</span>
             <span class="text-gray-600">/</span>
             <span class="text-emerald-400">${info.adminCount || info.adminCases || 0}</span>
+            ${(info.lowAltitudeCount || info.lowAltitudeCases || 0) > 0 ? `<span class="text-gray-600">/</span><span class="text-violet-400">${info.lowAltitudeCount || info.lowAltitudeCases || 0}低</span>` : ''}
           </span>
           <span class="text-sm font-semibold text-sky-400">${info.totalCases}</span>
         </div>
@@ -117,6 +128,7 @@ const Sidebar = (() => {
 
     // Collect info for all codes in the group
     let totalCases = 0, courtCases = 0, adminCases = 0;
+    let aviationCases = 0, lowAltitudeCases = 0;
     const groupInfos = [];
     for (const code of codes) {
       const info = countriesData?.countries?.[code];
@@ -124,6 +136,8 @@ const Sidebar = (() => {
         totalCases += info.totalCases;
         courtCases += (info.courtCount || info.courtCases || 0);
         adminCases += (info.adminCount || info.adminCases || 0);
+        aviationCases += (info.aviationCount || info.aviationCases || 0);
+        lowAltitudeCases += (info.lowAltitudeCount || info.lowAltitudeCases || 0);
         groupInfos.push(info);
       }
     }
@@ -145,6 +159,8 @@ const Sidebar = (() => {
           <h2 class="text-lg font-semibold text-gray-100">${primaryInfo ? (primaryInfo.name || primaryInfo.countryName || alpha2) : alpha2}</h2>
           <div class="text-xs text-gray-500 mt-0.5">
             共 ${totalCases} 个案例 —
+            <span class="text-emerald-400">${aviationCases} 一般航空</span>
+            ${lowAltitudeCases > 0 ? ` / <span class="text-violet-400">${lowAltitudeCases} 低空类</span>` : ''}
             <span class="text-amber-400">${courtCases} 法院</span> /
             <span class="text-emerald-400">${adminCases} 行政</span>
             ${territoryNames.length > 0 ? `<br><span class="text-gray-600">含：${territoryNames.join('、')}</span>` : ''}
@@ -156,9 +172,49 @@ const Sidebar = (() => {
     // Cases for this country and its territories (e.g. CN + HK + MO)
     const countryCases = casesData.filter(c => codes.includes(c.country));
 
-    // Group by authority
+    // Group by isLowAltitude first, then by authority
+    const aviationCasesList = countryCases.filter(c => !c.isLowAltitude);
+    const lowAltitudeCasesList = countryCases.filter(c => c.isLowAltitude);
+
+    const detailEl = document.getElementById('country-detail');
+    detailEl.innerHTML = '';
+
+    // Low-altitude section (shown first if any)
+    if (lowAltitudeCasesList.length > 0) {
+      detailEl.appendChild(createClassificationSection('低空类数据执法案例', lowAltitudeCasesList, 'violet'));
+    }
+
+    // General aviation section
+    if (aviationCasesList.length > 0) {
+      detailEl.appendChild(createClassificationSection('一般航空数据执法案例', aviationCasesList, 'sky'));
+    }
+  }
+
+  /**
+   * Create a classification section with authorities grouped within
+   */
+  function createClassificationSection(title, casesList, accentColor) {
+    const section = document.createElement('div');
+    section.className = 'mb-4';
+
+    const titleColorClass = accentColor === 'violet' ? 'text-violet-400' : 'text-sky-400';
+    const icon = accentColor === 'violet'
+      ? '<path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/>'
+      : '<path d="M12 2L2 22h20L12 2z"/><path d="M12 18v-4"/><path d="M12 10h.01"/>';
+
+    section.innerHTML = `
+      <h3 class="text-xs font-semibold ${titleColorClass} uppercase tracking-wider mb-2 flex items-center gap-1.5">
+        <svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          ${icon}
+        </svg>
+        ${title}
+        <span class="text-gray-500 normal-case">(${casesList.length})</span>
+      </h3>
+    `;
+
+    // Group by authority within this classification
     const authorityGroups = {};
-    for (const c of countryCases) {
+    for (const c of casesList) {
       const key = c.authority;
       if (!authorityGroups[key]) {
         authorityGroups[key] = {
@@ -171,27 +227,25 @@ const Sidebar = (() => {
       authorityGroups[key].cases.push(c);
     }
 
-    // Render detail
-    const detailEl = document.getElementById('country-detail');
-    detailEl.innerHTML = '';
-
-    // Admin section
+    // Admin sub-section
     const adminAuthorities = Object.values(authorityGroups).filter(g => g.type === 'admin');
     if (adminAuthorities.length > 0) {
-      detailEl.appendChild(createSection('行政决定', adminAuthorities, 'admin'));
+      section.appendChild(createAuthoritySection('行政决定', adminAuthorities, 'admin'));
     }
 
-    // Court section
+    // Court sub-section
     const courtAuthorities = Object.values(authorityGroups).filter(g => g.type === 'court');
     if (courtAuthorities.length > 0) {
-      detailEl.appendChild(createSection('法院判决', courtAuthorities, 'court'));
+      section.appendChild(createAuthoritySection('法院判决', courtAuthorities, 'court'));
     }
+
+    return section;
   }
 
   /**
-   * Create a section (Admin or Court) with expandable authorities
+   * Create an authority section with expandable cases
    */
-  function createSection(title, authorities, type) {
+  function createAuthoritySection(title, authorities, type) {
     const section = document.createElement('div');
     const icon = type === 'admin' ? 'shield' : 'gavel';
     // Use explicit class names (Tailwind CDN can't detect dynamic interpolation)
