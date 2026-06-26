@@ -134,6 +134,14 @@ const DataLoader = (() => {
       if (info.courtCount !== undefined && info.courtCases === undefined) {
         info.courtCases = info.courtCount;
       }
+      // aviationCount → aviationCases
+      if (info.aviationCount !== undefined && info.aviationCases === undefined) {
+        info.aviationCases = info.aviationCount;
+      }
+      // lowAltitudeCount → lowAltitudeCases
+      if (info.lowAltitudeCount !== undefined && info.lowAltitudeCases === undefined) {
+        info.lowAltitudeCases = info.lowAltitudeCount;
+      }
       // countryName → name
       if (info.countryName !== undefined && info.name === undefined) {
         info.name = info.countryName;
