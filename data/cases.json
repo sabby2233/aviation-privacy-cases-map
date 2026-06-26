@@ -20,7 +20,8 @@
     "fineAmount": 30000,
     "fineCurrency": "EUR",
     "sourceName": "AEPD",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "ES-A-002",
@@ -43,7 +44,8 @@
     "fineAmount": 20000,
     "fineCurrency": "EUR",
     "sourceName": "AEPD",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "ES-A-003",
@@ -66,7 +68,8 @@
     "fineAmount": 30000,
     "fineCurrency": "EUR",
     "sourceName": "AEPD",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "ES-A-004",
@@ -89,7 +92,8 @@
     "fineAmount": 30000,
     "fineCurrency": "EUR",
     "sourceName": "AEPD",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "ES-A-005",
@@ -112,7 +116,8 @@
     "fineAmount": 60000,
     "fineCurrency": "EUR",
     "sourceName": "AEPD",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "ES-A-006",
@@ -136,7 +141,8 @@
     "fineAmount": 200000,
     "fineCurrency": "EUR",
     "sourceName": "AEPD",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "ES-A-007",
@@ -159,7 +165,8 @@
     "fineAmount": 650000,
     "fineCurrency": "EUR",
     "sourceName": "AEPD",
-    "lastVerified": "2026-06-12"
+    "lastVerified": "2026-06-12",
+    "isLowAltitude": false
   },
   {
     "id": "ES-A-008",
@@ -184,7 +191,8 @@
     "fineAmount": 10043002,
     "fineCurrency": "EUR",
     "sourceName": "AEPD",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "ES-A-009",
@@ -209,7 +217,8 @@
     "fineAmount": 14400000,
     "fineCurrency": "EUR",
     "sourceName": "AEPD",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "ES-A-010",
@@ -232,7 +241,8 @@
     "fineAmount": 20000,
     "fineCurrency": "EUR",
     "sourceName": "AEPD",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "GB-A-001",
@@ -255,7 +265,8 @@
     "fineAmount": 500000,
     "fineCurrency": "GBP",
     "sourceName": "ICO",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "GB-A-002",
@@ -278,7 +289,8 @@
     "fineAmount": null,
     "fineCurrency": null,
     "sourceName": "ICO",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "GB-A-003",
@@ -301,7 +313,8 @@
     "fineAmount": 20000000,
     "fineCurrency": "GBP",
     "sourceName": "ICO",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "FR-A-001",
@@ -325,7 +338,8 @@
     "fineAmount": 400000,
     "fineCurrency": "EUR",
     "sourceName": "CNIL",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "FR-A-002",
@@ -348,7 +362,8 @@
     "fineAmount": null,
     "fineCurrency": null,
     "sourceName": "CNIL",
-    "lastVerified": "2026-06-12"
+    "lastVerified": "2026-06-12",
+    "isLowAltitude": false
   },
   {
     "id": "DE-A-001",
@@ -373,7 +388,8 @@
     "fineAmount": null,
     "fineCurrency": null,
     "sourceName": "BfDI",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "BE-A-001",
@@ -398,7 +414,8 @@
     "fineAmount": 200000,
     "fineCurrency": "EUR",
     "sourceName": "APD/GBA",
-    "lastVerified": "2026-06-12"
+    "lastVerified": "2026-06-12",
+    "isLowAltitude": false
   },
   {
     "id": "BE-C-001",
@@ -421,7 +438,8 @@
       "proportionality"
     ],
     "sourceName": "CURIA",
-    "lastVerified": "2026-06-12"
+    "lastVerified": "2026-06-12",
+    "isLowAltitude": false
   },
   {
     "id": "IT-A-001",
@@ -444,7 +462,8 @@
     "fineAmount": 1000000,
     "fineCurrency": "EUR",
     "sourceName": "Garante",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "IT-A-002",
@@ -467,7 +486,8 @@
     "fineAmount": 250000,
     "fineCurrency": "EUR",
     "sourceName": "Garante",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "IT-A-003",
@@ -492,7 +512,8 @@
     "fineAmount": null,
     "fineCurrency": null,
     "sourceName": "NOYB/Garante",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "RO-A-001",
@@ -516,7 +537,8 @@
     "fineAmount": 20000,
     "fineCurrency": "EUR",
     "sourceName": "ANSPDCP",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "CY-A-001",
@@ -540,7 +562,8 @@
     "fineAmount": 2000,
     "fineCurrency": "EUR",
     "sourceName": "Cyprus DPA",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "SE-A-001",
@@ -563,7 +586,8 @@
     "fineAmount": null,
     "fineCurrency": null,
     "sourceName": "IMY",
-    "lastVerified": "2026-06-12"
+    "lastVerified": "2026-06-12",
+    "isLowAltitude": false
   },
   {
     "id": "TR-A-001",
@@ -587,7 +611,8 @@
     "fineAmount": 550000,
     "fineCurrency": "TRY",
     "sourceName": "KVKK",
-    "lastVerified": "2026-06-12"
+    "lastVerified": "2026-06-12",
+    "isLowAltitude": false
   },
   {
     "id": "TR-A-002",
@@ -610,7 +635,8 @@
     "fineAmount": 100000,
     "fineCurrency": "TRY",
     "sourceName": "KVKK",
-    "lastVerified": "2026-06-12"
+    "lastVerified": "2026-06-12",
+    "isLowAltitude": false
   },
   {
     "id": "US-A-001",
@@ -633,7 +659,8 @@
     "fineAmount": null,
     "fineCurrency": null,
     "sourceName": "FTC",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "US-A-002",
@@ -656,7 +683,8 @@
     "fineAmount": null,
     "fineCurrency": null,
     "sourceName": "DOT",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "US-A-003",
@@ -680,7 +708,8 @@
     "fineAmount": null,
     "fineCurrency": null,
     "sourceName": "FTC",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "US-A-004",
@@ -704,7 +733,8 @@
     "fineAmount": null,
     "fineCurrency": null,
     "sourceName": "FTC",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "US-C-001",
@@ -726,7 +756,8 @@
       "employee-data"
     ],
     "sourceName": "CourtListener",
-    "lastVerified": "2026-06-12"
+    "lastVerified": "2026-06-12",
+    "isLowAltitude": false
   },
   {
     "id": "US-C-002",
@@ -747,7 +778,8 @@
       "personal-data"
     ],
     "sourceName": "CourtListener",
-    "lastVerified": "2026-06-12"
+    "lastVerified": "2026-06-12",
+    "isLowAltitude": false
   },
   {
     "id": "US-C-003",
@@ -769,7 +801,8 @@
       "personal-data"
     ],
     "sourceName": "CourtListener",
-    "lastVerified": "2026-06-12"
+    "lastVerified": "2026-06-12",
+    "isLowAltitude": false
   },
   {
     "id": "CA-A-001",
@@ -792,7 +825,8 @@
     "fineAmount": null,
     "fineCurrency": null,
     "sourceName": "OPC",
-    "lastVerified": "2026-06-12"
+    "lastVerified": "2026-06-12",
+    "isLowAltitude": false
   },
   {
     "id": "AU-A-001",
@@ -815,7 +849,8 @@
     "fineAmount": null,
     "fineCurrency": null,
     "sourceName": "OAIC",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "NO-A-001",
@@ -838,7 +873,8 @@
     "fineAmount": null,
     "fineCurrency": null,
     "sourceName": "Datatilsynet",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "NL-A-001",
@@ -862,7 +898,8 @@
     "fineAmount": null,
     "fineCurrency": null,
     "sourceName": "AP",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "HU-A-001",
@@ -885,7 +922,8 @@
     "fineAmount": null,
     "fineCurrency": null,
     "sourceName": "NAIH",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "CH-A-001",
@@ -908,7 +946,8 @@
     "fineAmount": null,
     "fineCurrency": null,
     "sourceName": "FDPIC",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "KR-A-001",
@@ -931,7 +970,8 @@
     "fineAmount": null,
     "fineCurrency": null,
     "sourceName": "PIPC",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "IN-A-001",
@@ -955,7 +995,8 @@
     "fineAmount": null,
     "fineCurrency": null,
     "sourceName": "DPBI",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "SG-A-001",
@@ -978,7 +1019,8 @@
     "fineAmount": 47000,
     "fineCurrency": "SGD",
     "sourceName": "PDPC",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "CN-C-001",
@@ -999,7 +1041,8 @@
       "civil-litigation"
     ],
     "sourceName": "China Courts",
-    "lastVerified": "2026-06-12"
+    "lastVerified": "2026-06-12",
+    "isLowAltitude": false
   },
   {
     "id": "HK-A-001",
@@ -1020,7 +1063,8 @@
       "third-party"
     ],
     "sourceName": "PCPD",
-    "lastVerified": "2026-06-12"
+    "lastVerified": "2026-06-12",
+    "isLowAltitude": false
   },
   {
     "id": "AT-A-001",
@@ -1043,7 +1087,8 @@
     "fineAmount": null,
     "fineCurrency": null,
     "sourceName": "DSB",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "PT-A-001",
@@ -1066,7 +1111,8 @@
     "fineAmount": null,
     "fineCurrency": null,
     "sourceName": "CNPD",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "IE-A-001",
@@ -1089,7 +1135,8 @@
     "fineAmount": null,
     "fineCurrency": null,
     "sourceName": "DPC",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "PL-A-001",
@@ -1112,7 +1159,8 @@
     "fineAmount": null,
     "fineCurrency": null,
     "sourceName": "UODO",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   },
   {
     "id": "DK-A-001",
@@ -1135,6 +1183,7 @@
     "fineAmount": null,
     "fineCurrency": null,
     "sourceName": "Datatilsynet",
-    "lastVerified": "2026-06-13"
+    "lastVerified": "2026-06-13",
+    "isLowAltitude": false
   }
 ]
