@@ -61,11 +61,13 @@ const MapRenderer = (() => {
       for (const [code, info] of Object.entries(countriesData.countries)) {
         const mapCode = DataLoader.resolveMapAlias(code);
         if (!caseDataMap[mapCode]) {
-          caseDataMap[mapCode] = { totalCases: 0, courtCases: 0, adminCases: 0 };
+          caseDataMap[mapCode] = { totalCases: 0, courtCases: 0, adminCases: 0, aviationCases: 0, lowAltitudeCases: 0 };
         }
         caseDataMap[mapCode].totalCases += (info.totalCount || info.totalCases || 0);
         caseDataMap[mapCode].courtCases += (info.courtCount || info.courtCases || 0);
         caseDataMap[mapCode].adminCases += (info.adminCount || info.adminCases || 0);
+        caseDataMap[mapCode].aviationCases += (info.aviationCount || info.aviationCases || 0);
+        caseDataMap[mapCode].lowAltitudeCases += (info.lowAltitudeCount || info.lowAltitudeCases || 0);
       }
     }
 
@@ -149,6 +151,8 @@ const MapRenderer = (() => {
         const count = info ? (info.totalCases || info.totalCount || 0) : 0;
         const adminCount = info ? (info.adminCases || info.adminCount || 0) : 0;
         const courtCount = info ? (info.courtCases || info.courtCount || 0) : 0;
+        const lowAltCount = info ? (info.lowAltitudeCases || info.lowAltitudeCount || 0) : 0;
+        const avCount = info ? (info.aviationCases || info.aviationCount || 0) : 0;
 
         // Highlight
         d3.select(this)
@@ -162,9 +166,13 @@ const MapRenderer = (() => {
         const tooltipCount = document.getElementById('tooltip-count');
 
         tooltipCountry.textContent = name;
-        tooltipCount.textContent = count > 0
+        let tooltipText = count > 0
           ? `${count} 个数据保护案例 (行政 ${adminCount} / 法院 ${courtCount})`
           : '暂无案例数据';
+        if (lowAltCount > 0) {
+          tooltipText += ` — 低空类 ${lowAltCount}`;
+        }
+        tooltipCount.textContent = tooltipText;
 
         tooltip.classList.remove('hidden');
 
